@@ -68,9 +68,17 @@ HISTSIZE=1000
 	①. 控制台中：
 	$ PATH="$PATH:/my_new_path"
 
-	②. 修改profile文件：
-	$ vi /etc/profile
+	②. 修改configure文件(All four files are working)：
+	$ vi 
+	//only can be valid if the following file is manually executed 
+	//OR System is restarted
+	1: /home/.bash_profile
+	2: /etc/bashrc
 
+	//only can be valid if the following file is manually executed 
+	//OR terminal is opened
+	1: /etc/profile
+	2: /etc/profile.d/
 	在里面加入:
 	export PATH="$PATH:/my_new_path"
 
