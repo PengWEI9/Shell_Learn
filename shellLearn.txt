@@ -1,0 +1,26 @@
+# REMOTE MAPPING
+Mapping remote directory to local
+sshfs root@192.168.15.59:/remoteDir /localDir
+sshfs root@192.168.15.59:/storage/.xbmc/addons/skin.seebo.dev /home/pengwei/Desktop/remote/skin.seebo.dev
+
+unMapping remote from local dir
+sudo umount -l /dir
+
+# GREP
+Find string in a folder:
+grep -rn customerString
+
+Find String only in certain sufixed files:
+grep -rn --include \*.cpp --include \*.h "Eco"
+
+#DETOUCHING APP OPENING FROM TERMINAL
+Ctr + z
+bg
+
+#OPEN IMAGE FROM TERMINAL
+oeg picture.png
+
+compress a tar.xz file
+tar -cJf dest.tar.xz source
+
+rsync -avz --exclude=build.KowanTV-KOWANX.aarch64-7.0-devel --exclude=build.LibreELEC-S905.aarch64-7.0-devel -e 'ssh' jin@192.168.15.102:/home/jin/SeeboProject/SeeboMini/LibreELEC.tv /home/pengwei/Desktop/Work/MINI && PROJECT=S905 ARCH=aarch64 make amlpkg
