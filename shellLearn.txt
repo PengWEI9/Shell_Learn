@@ -23,4 +23,6 @@ oeg picture.png
 compress a tar.xz file
 tar -cJf dest.tar.xz source
 
-rsync -avz --exclude=build.KowanTV-KOWANX.aarch64-7.0-devel --exclude=build.LibreELEC-S905.aarch64-7.0-devel -e 'ssh' jin@192.168.15.102:/home/jin/SeeboProject/SeeboMini/LibreELEC.tv /home/pengwei/Desktop/Work/MINI && PROJECT=S905 ARCH=aarch64 make amlpkg
+rsync -avz --exclude=build.OpenELEC-Generic.x86_64-7.0-devel --exclude=build.OpenELEC-Amlogic.M8.arm-7.0-devel --exclude=.git -e 'ssh' jin@192.168.15.102:/home/jin/SeeboProject/SeeboMini/LE_7.0_1.0 /home/peng/Desktop/work/
+
+rsync -avz --exclude=build.OpenELEC-Generic.x86_64-7.0-devel --exclude=build.OpenELEC-Amlogic.M8.arm-7.0-devel --exclude=.git -e 'ssh' jin@192.168.15.102:/home/jin/SeeboProject/SeeboMini/LibreELEC.tv/* /home/peng/Desktop/work/LE_7.0_1.0/
