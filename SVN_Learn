@@ -1,0 +1,3 @@
+#revert to head and discard current change(Warning changes will be discarded)
+svn revert -R .
+svn up
