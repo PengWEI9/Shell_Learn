@@ -1,0 +1,2013 @@
+﻿NOTICE: special://profile/ is mapped to: special://masterprofile/
+NOTICE: -----------------------------------------------------------------------
+NOTICE: Starting XBMC (13.2 Git:Unknown). Platform: ARM Linux 64-bit
+NOTICE: Using Release XBMC x64 build, compiled Jan  2 2017 by GCC 5.3.0 for ARM Linux 64-bit 3.14.29
+NOTICE: Running on Linux 64-bit (KowanTV (community) - Version: devel-20170102154033-r9-g99397d9, 3.14.29 aarch64)
+NOTICE: FFmpeg version: 2.8.6, statically linked: 0
+NOTICE: WARNING: unsupported ffmpeg version detected
+NOTICE: Host CPU: AArch64 Processor rev 4 (aarch64), 4 cores available
+NOTICE: special://xbmc/ is mapped to: /usr/share/xbmc
+NOTICE: special://xbmcbin/ is mapped to: /usr/lib/xbmc
+NOTICE: special://masterprofile/ is mapped to: /storage/.xbmc/userdata
+NOTICE: special://home/ is mapped to: /storage/.xbmc
+NOTICE: special://temp/ is mapped to: /storage/.xbmc/temp
+NOTICE: The executable running is: /usr/lib/xbmc/xbmc.bin
+NOTICE: Local hostname: KOWAN
+NOTICE: Log File is located: /storage/.xbmc/temp/xbmc.log
+NOTICE: -----------------------------------------------------------------------
+ ERROR: DBus: Error org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.UPower was not provided by any .service files
+NOTICE: load settings...
+NOTICE: AML device detected
+NOTICE: CAESinkALSA::EnumerateDevice data format "AE_FMT_LPCM" on device "hdmi:CARD=AMLM8AUDIO,DEV=0" seems to be not supported.
+NOTICE: CAESinkALSA::EnumerateDevice data format "AE_FMT_DTSHD" on device "hdmi:CARD=AMLM8AUDIO,DEV=0" seems to be not supported.
+NOTICE: CAESinkALSA::EnumerateDevice data format "AE_FMT_TRUEHD" on device "hdmi:CARD=AMLM8AUDIO,DEV=0" seems to be not supported.
+NOTICE: CAESinkALSA::EnumerateDevice data format "AE_FMT_EAC3" on device "hdmi:CARD=AMLM8AUDIO,DEV=0" seems to be not supported.
+NOTICE: CAESinkALSA::EnumerateDevice data format "AE_FMT_DTS" on device "hdmi:CARD=AMLM8AUDIO,DEV=0" seems to be not supported.
+NOTICE: CAESinkALSA::EnumerateDevice data format "AE_FMT_AC3" on device "hdmi:CARD=AMLM8AUDIO,DEV=0" seems to be not supported.
+NOTICE: CAESinkALSA::EnumerateDevice data format "AE_FMT_AAC" on device "hdmi:CARD=AMLM8AUDIO,DEV=0" seems to be not supported.
+NOTICE: CAESinkOSS::EnumerateDevicesEx - No OSS mixer device present: /dev/mixer
+NOTICE: Found 2 Lists of Devices
+NOTICE: Enumerated ALSA devices:
+NOTICE:     Device 1
+NOTICE:         m_deviceName      : default
+NOTICE:         m_displayName     : Default (AML-M8AUDIO Analog)
+NOTICE:         m_displayNameExtra:
+NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+NOTICE:         m_channels        : FL,FR,BL,BR,FC,LFE,SL,SR
+NOTICE:         m_sampleRates     : 44100,48000,88200,96000
+NOTICE:         m_dataFormats     : AE_FMT_S32NE
+NOTICE:     Device 2
+NOTICE:         m_deviceName      : hdmi:CARD=AMLM8AUDIO,DEV=0
+NOTICE:         m_displayName     : AML-M8AUDIO
+NOTICE:         m_displayNameExtra: HDMI
+NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+NOTICE:         m_channels        : FL,FR,BL,BR,FC,LFE,SL,SR
+NOTICE:         m_sampleRates     : 44100,48000,88200,96000,176400,192000
+NOTICE:         m_dataFormats     : AE_FMT_LPCM,AE_FMT_DTSHD,AE_FMT_TRUEHD,AE_FMT_EAC3,AE_FMT_DTS,AE_FMT_AC3,AE_FMT_AAC,AE_FMT_S16NE,AE_FMT_S16LE
+NOTICE: Enumerated PULSE devices:
+NOTICE:     Device 1
+NOTICE:         m_deviceName      : Default
+NOTICE:         m_displayName     : Default
+NOTICE:         m_displayNameExtra: Bluetooth Audio (PULSEAUDIO)
+NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+NOTICE:         m_channels        : FL,FR
+NOTICE:         m_sampleRates     : 5512,8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000,384000
+NOTICE:         m_dataFormats     : AE_FMT_U8,AE_FMT_S16LE,AE_FMT_S16BE,AE_FMT_S16NE,AE_FMT_S24LE3,AE_FMT_S24BE3,AE_FMT_S24NE3,AE_FMT_S24LE4,AE_FMT_S24BE4,AE_FMT_S24NE4,AE_FMT_S32BE,AE_FMT_S32LE,AE_FMT_S32NE,AE_FMT_FLOAT
+ ERROR: CSettingGroup: unable to read setting type of "services.airplay"
+ARNING: CSettingCategory: unable to read group "1"
+ ERROR: CSetting: missing <control> tag of "pvrpowermanagement.setwakeupcmd"
+ARNING: CSettingGroup: unable to read setting "pvrpowermanagement.setwakeupcmd"
+NOTICE: Loaded settings file from special://xbmc/system/advancedsettings.xml
+NOTICE: Contents of special://xbmc/system/advancedsettings.xml are...
+                   <?xml version="1.0" encoding="UTF-8" ?>
+                   <advancedsettings>
+                     <showexitbutton>false</showexitbutton>
+                     <network>
+                       <cachemembuffersize>20971520</cachemembuffersize>
+                     </network>
+                     <samba>
+                       <clienttimeout>30</clienttimeout>
+                     </samba>
+                     <network>
+                       <readbufferfactor>4.0</readbufferfactor>
+                     </network>
+                     <pvr>
+                       <minvideocachelevel>5</minvideocachelevel>
+                       <minaudiocachelevel>20</minaudiocachelevel>
+                     </pvr>
+                   </advancedsettings>
+NOTICE: Loaded settings file from special://profile/advancedsettings.xml
+NOTICE: Contents of special://profile/advancedsettings.xml are...
+                   <advancedsettings>
+                     <splash>false</splash>
+                     <loglevel>3</loglevel>
+                     <showexitbutton>false</showexitbutton>
+                     <cputempcommand>cputemp</cputempcommand>
+                     <gputempcommand>gputemp</gputempcommand>
+                     <video>
+                       <latency>
+                         <delay>0</delay>
+                         <refresh>
+                           <min>23</min>
+                           <max>24</max>
+                           <delay>175</delay>
+                         </refresh>
+                       </latency>
+                       <busydialogdelayms>750</busydialogdelayms>
+                     </video>
+                     <samba>
+                       <clienttimeout>30</clienttimeout>
+                     </samba>
+                     <network>
+                       <readbufferfactor>4.0</readbufferfactor>
+                     </network>
+                     <!--NEO-71-->
+                     <epg>
+                       <lingertime>0</lingertime>
+                     </epg>
+                   </advancedsettings>
+NOTICE: Log level changed to 2
+NOTICE: Default DVD Player: dvdplayer
+NOTICE: Default Video Player: dvdplayer
+NOTICE: Default Audio Player: paplayer
+NOTICE: Disabled debug logging due to GUI setting. Level 1.
+NOTICE: Log level changed to 1
+NOTICE: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
+ ERROR: CMediaSourceSettings: error loading special://masterprofile/sources.xml: Line 0, Error document empty.
+NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+ DEBUG: CPlayerCoreConfig::<ctor>: created player DVDPlayer for core 1
+ DEBUG: CPlayerCoreConfig::<ctor>: created player oldmplayercore for core 1
+ DEBUG: CPlayerCoreConfig::<ctor>: created player PAPlayer for core 3
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: system rules
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtv
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: hdhomerun/myth/mms/udp
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: lastfm/shout
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtmp
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtsp
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: streams
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: aacp/sdp
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: mp2
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvd
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvdimage
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: sdp/asf
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: nsv
+ DEBUG: CPlayerSelectionRule::Initialize: creating rule: radio
+NOTICE: Loaded playercorefactory configuration
+NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+  INFO: creating subdirectories
+  INFO: userdata folder: special://masterprofile/
+ DEBUG: CSettingsManager: requested setting (audiocds.recordingpath) was not found.
+  INFO: recording folder:
+  INFO: screenshots folder:
+  INFO: load language info file: special://xbmc/language/English/langinfo.xml
+ DEBUG: trying to set locale to en_AU.UTF-8
+  INFO: global locale set to C
+  INFO: load English language file, from path: special://xbmc/language/
+ DEBUG: POParser: PO file has Win Style Line Endings. Converted in memory to Linux LF for file: /usr/share/xbmc/language/English/strings.po
+ DEBUG: POParser: loaded 3249 strings from file /usr/share/xbmc/language/English/strings.po
+NOTICE: Thread ActiveAE start, auto delete: false
+NOTICE: Thread AESink start, auto delete: false
+ DEBUG: CSettingsManager: requested setting (audiooutput.guisoundmode) was not found.
+  INFO: CActiveAESink::OpenSink - initialize sink
+ DEBUG: CActiveAESink::OpenSink - trying to open device ALSA:hdmi:CARD=AMLM8AUDIO,DEV=0
+ DEBUG: CAESinkALSA::GetChannelLayout - Input Channel Count: 2 Output Channel Count: 2
+ DEBUG: CAESinkALSA::GetChannelLayout - Requested Layout: FL,FR
+ DEBUG: CAESinkALSA::GetChannelLayout - Got Layout: FL,FR
+  INFO: CAESinkALSA::Initialize - Attempting to open device "default"
+  INFO: CAESinkALSA::Initialize - Opened device "default"
+  INFO: CAESinkALSA::InitializeHW - Your hardware does not support AE_FMT_FLOAT, trying other formats
+  INFO: CAESinkALSA::InitializeHW - Using data format AE_FMT_S32NE
+ DEBUG: CAESinkALSA::InitializeHW - Min: periodSize 8, periods 2, bufferSize 16
+ DEBUG: CAESinkALSA::InitializeHW - Max: periodSize 8192, periods 1024, bufferSize 65536
+ DEBUG: CAESinkALSA::InitializeHW - Request: periodSize 2048, periods 8, bufferSize 16384
+ DEBUG: CAESinkALSA::InitializeHW - Got: periodSize 2048, bufferSize 16384
+ DEBUG: CAESinkALSA::InitializeHW - Setting timeout to 372 ms
+ DEBUG: CAESinkALSA::GetChannelLayout - Input Channel Count: 2 Output Channel Count: 2
+ DEBUG: CAESinkALSA::GetChannelLayout - Requested Layout: FL,FR
+ DEBUG: CAESinkALSA::GetChannelLayout - Got Layout: FL,FR
+ DEBUG: CActiveAESink::OpenSink - ALSA Initialized:
+ DEBUG:   Output Device : AML-M8AUDIO
+ DEBUG:   Sample Rate   : 44100
+ DEBUG:   Sample Format : AE_FMT_S32NE
+ DEBUG:   Channel Count : 2
+ DEBUG:   Channel Layout: FL,FR
+ DEBUG:   Frames        : 2048
+ DEBUG:   Frame Samples : 4096
+ DEBUG:   Frame Size    : 8
+ DEBUG: CSettingsManager: requested setting (audiooutput.guisoundmode) was not found.
+NOTICE: Running database version Addons16
+ DEBUG: SECTION:LoadDLL(special://xbmcbin/system/libcpluff-aarch64.so)
+ DEBUG: Loading: /usr/lib/xbmc/system/libcpluff-aarch64.so
+  INFO: ADDON: cpluff: 'Could not read plug-in directory /usr/lib/xbmc/addons: No such file or directory'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.pyamf has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.xbmcswift has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.json has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.facebook.media has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.phstreams has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.t0mm0.common has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.fanart.tv has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.cu.lrclyrics has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.xbmc.subtitles has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in webinterface.default has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in repository.xbmc.org has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in visualization.vortex has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in service.openelec.settings has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in screensaver.xbmc.builtin.black has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in pvr.vdr.vnsi has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.demjson has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.socksipy has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.ted.talks has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.chardet has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.simplejson has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.specto.media has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in screensaver.xbmc.builtin.dim has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.favourites has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.xmltodict has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.themoviedb.org has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.brightcove has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.metadata has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in repository.kowan has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in skin.confluence has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.playalbum has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.myconnpy has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.addon.common has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.audio.tuneinradio has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.beautifulsoup has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.randomandlastitems has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.pyxbmct has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.gui has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.pil has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in service.skin.widgets has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.amazon.de has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.common.plugin.cache has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in os.openelec.tv has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.footballreplays has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.simple.downloader has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.showlivetvsettings has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.musicvideos.theaudiodb.com has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.core has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.youtube has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.redbull.tv has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.exodus has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.requests has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.audio.pandora has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in service.subtitles.opensubtitles has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in pvr.iptvsimple has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.pvr has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.urlresolver has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.video.F4mProxy has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.mrknow.urlresolver has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.oauth.helper has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.album.universal has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.htbackdrops.com has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.exodus.artwork has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.allmusic.com has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.tvdb.com has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.ukturk has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.musicbrainz.org has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.local has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.universal has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.mutagen has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.buggalo has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.letterscroll has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.last.fm has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.mechanize has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in plugin.video.specto has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.themoviedb.org has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.debug has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.theaudiodb.com has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.parsedom has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.artists.universal has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.videolanguage has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.python has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.xbmcutil has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.imdb.com has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.xbmcswift2 has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.liveresolver has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.elementtree has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in service.Change.HostName has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.requests2 has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.addon has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in xbmc.codec has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in skin.kowan.ux has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in script.module.metahandler has been installed.'
+ DEBUG: ADDON: cpluff: 'Plug-in metadata.common.hdtrailers.net has been installed.'
+ DEBUG: ADDON: cpluff: 'Not all directories were successfully scanned.'
+NOTICE: ADDONS: Using repository repository.kowan
+  INFO: LIRC Initialize: using: /dev/lircd
+  INFO: LIRC Initialize: connect failed: No such file or directory
+ DEBUG: Failed to connect to LIRC. Retry in 10s.
+ DEBUG: LoadMappings - loaded node "Motorola Nyxboard Hybrid"
+ DEBUG: LoadMappings - loaded node "CEC Adapter"
+ DEBUG: LoadMappings - loaded node "Pulse-Eight CEC Adapter"
+ DEBUG: LoadMappings - loaded node "iMON HID device"
+ DEBUG: CPeripheralBusUSB - initialised udev monitor
+ DEBUG: SECTION:LoadDLL(libcec.so.3.0)
+ DEBUG: Loading: libcec.so.3.0
+ DEBUG: GetMappingForDevice - device (0000:0000) mapped to CEC Adapter (type = cec)
+ DEBUG: InitialiseFeature - using libCEC v3.0.1
+ DEBUG: Initialise - initialised peripheral on 'AOCEC' with 2 features and 0 sub devices
+NOTICE: Register - new cec device registered on cec->AOCEC: CEC Adapter (0000:0000)
+NOTICE: Thread CECAdapter start, auto delete: false
+ DEBUG: OpenConnection - opening a connection to the CEC adapter: AOCEC
+NOTICE: Thread PeripBusCEC start, auto delete: false
+NOTICE: Thread PeripBusUSBUdev start, auto delete: false
+ DEBUG: UDisks: org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.UDisks was not provided by any .service files
+ DEBUG: DeviceKit.Disks: org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.DeviceKit.Disks was not provided by any .service files
+ DEBUG: Selected UDev as storage provider
+NOTICE: InitWindowSystem: Using EGL Implementation: amlogic
+NOTICE: Found resolution 1280 x 720 for display 0 with 1280 x 720 @ 60.000000 Hz
+NOTICE: Found resolution 1920 x 1080 for display 0 with 1920 x 1080 @ 60.000000 Hz
+NOTICE: Found (1920x1080@60.000000) at 17, setting to RES_DESKTOP at 16
+NOTICE: Checking resolution 16
+ DEBUG: CreateWindow: Created surface of size 1920x1080
+NOTICE: GL_VENDOR = ARM
+NOTICE: GL_RENDERER = Mali-450 MP
+NOTICE: GL_VERSION = OpenGL ES 2.0
+NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
+ DEBUG: GLES: Extension Support Test - GL_NVX_gpu_memory_info NO
+NOTICE: GL_EXTENSIONS = GL_OES_texture_npot GL_OES_vertex_array_object GL_OES_compressed_ETC1_RGB8_texture GL_EXT_compressed_ETC1_RGB8_sub_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_depth24 GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth_texture GL_OES_packed_depth_stencil GL_EXT_texture_format_BGRA8888 GL_OES_vertex_half_float GL_EXT_blend_minmax GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_rgb8_rgba8 GL_EXT_multisampled_render_to_texture GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_ARM_mali_program_binary GL_EXT_shader_texture_lod GL_EXT_robustness GL_OES_depth_texture_cube_map GL_KHR_debug GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_OES_mapbuffer
+ DEBUG: GLES: Extension Support Test - GL_EXT_texture_format_BGRA8888 YES
+ DEBUG: GLES: Extension Support Test - GL_IMG_texture_format_BGRA8888 NO
+ DEBUG: GLES: Extension Support Test - GL_APPLE_texture_format_BGRA8888 NO
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_default.glsl]- Initialise successful : 0x27f84d0
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_texture.glsl]- Initialise successful : 0x269d590
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_multi.glsl]- Initialise successful : 0x26a7660
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_fonts.glsl]- Initialise successful : 0x2764f20
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_texture_noblend.glsl]- Initialise successful : 0x26a3510
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_multi_blendcolor.glsl]- Initialise successful : 0x263bbf0
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_rgba.glsl]- Initialise successful : 0x2660530
+ DEBUG: GLES: Extension Support Test - GL_OES_EGL_image_external YES
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_rgba_oes.glsl]- Initialise successful : 0x2673950
+ DEBUG: GL: Vertex Shader compilation log:
+ DEBUG: GL: Vertex Shader compiled successfully
+ DEBUG: GL: Pixel Shader compilation log:
+ DEBUG: GL: Fragment Shader compiled successfully
+ DEBUG: GUI Shader [guishader_frag_rgba_blendcolor.glsl]- Initialise successful : 0x2781d40
+ DEBUG: CWinSystemEGL::CreateNewWindow: No need to create a new window
+  INFO: GLES: Maximum texture width: 4096
+ DEBUG: CRenderManager::UpdateDisplayLatency - Latency set to 0 msec
+ DEBUG: SendMessage: mess=21 send=0 control=0 param1=34
+  INFO: load keymapping
+  INFO: Loading special://xbmc/system/keymaps/appcommand.xml
+  INFO: Loading special://xbmc/system/keymaps/gamepad.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Alienware.Dual.Compatible.Controller.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.AppleRemote.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Harmony.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Interact.AxisPad.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Logitech.RumblePad.2.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Microsoft.Xbox.360.Controller.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Microsoft.Xbox.Controller.S.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Nintendo.Wii.U.Pro.Controller.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Ouya.Controller.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.PS3.Remote.Keyboard.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.PS4.Controller.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.Sony.PLAYSTATION(R)3.Controller.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.WiiRemote.xml
+  INFO: Loading special://xbmc/system/keymaps/joystick.xml
+NOTICE: No Joystick name specified, loading default map
+NOTICE: Previous line repeats 35 times.
+  INFO: Loading special://xbmc/system/keymaps/keyboard.xml
+ ERROR: Keyboard Translator: Can't find button home
+  INFO: Loading special://xbmc/system/keymaps/mouse.xml
+  INFO: Loading special://xbmc/system/keymaps/remote.xml
+  INFO: Loading special://xbmc/system/keymaps/touchscreen.xml
+  INFO: Loading special://xbmc/system/Lircmap.xml
+  INFO: * Adding remote mapping for device 'mceusb'
+  INFO: * Adding remote mapping for device 'XboxDVDDongle'
+  INFO: * Adding remote mapping for device 'Microsoft_Xbox'
+  INFO: * Adding remote mapping for device 'PinnacleSysPCTVRemote'
+  INFO: * Adding remote mapping for device 'anysee'
+  INFO: * Adding remote mapping for device 'iMON-PAD'
+  INFO: * Adding remote mapping for device 'Antec_Veris_RM200'
+  INFO: * Adding remote mapping for device 'MCE_via_iMON'
+  INFO: * Adding remote mapping for device 'TwinHanRemote'
+  INFO: * Adding remote mapping for device 'linux-input-layer'
+  INFO: * Linking remote mapping for 'linux-input-layer' to 'cx23885_remote'
+  INFO: * Adding remote mapping for device 'mediacenter'
+  INFO: * Adding remote mapping for device 'devinput'
+ DEBUG: CButtonTranslator::Load - no userdata Lircmap.xml found, skipping
+  INFO: GUI format 1920x1080, Display 1920x1080 @ 60.00 - Full Screen
+ DEBUG: guilib: Fill viewport on change for solving rendering passes
+ DEBUG: SECTION:LoadDLL(libcurl.so.4)
+ DEBUG: Loading: libcurl.so.4
+NOTICE: Running database version Addons16
+ DEBUG: Initialize, updating databases...
+NOTICE: Running database version ViewModes6
+NOTICE: Running database version Textures13
+NOTICE: Running database version MyMusic46
+NOTICE: Running database version MyVideos78
+NOTICE: Running database version TV22
+NOTICE: Running database version Epg7
+ DEBUG: Initialize, updating databases... DONE
+  INFO: DPMS: not supported on this platform
+ DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+ DEBUG: GOT ANNOUNCEMENT, type: 2, from xbmc, message OnClear
+  INFO: Unloading old skin ...
+ DEBUG: CSettingsManager: requested setting (lookandfeel.soundskin) was not found.
+  INFO:   load skin from: /storage/.xbmc/addons/skin.kowan.dev (version: 0.5.2)
+  INFO:   load fonts for skin...
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skincolors) was not found.
+  INFO: Loading colors from /storage/.xbmc/addons/skin.kowan.dev/colors/.xml
+  INFO: Loading fonts from /storage/.xbmc/addons/skin.kowan.dev/720p/Font.xml
+ DEBUG: LocalizeStrings: no strings.po file exist at /storage/.xbmc/addons/skin.kowan.dev/language/English, fallback to strings.xml
+  INFO: Loading skin includes from /storage/.xbmc/addons/skin.kowan.dev/720p/Includes.xml
+  INFO: Error loading includes.xml file (/storage/.xbmc/addons/skin.kowan.dev/720p/CommonViews.xml): Failed to open file (row=0, col=0)
+  INFO: Error loading includes.xml file (/storage/.xbmc/addons/skin.kowan.dev/720p/Includes_Breadcrumbs.xml): Failed to open file (row=0, col=0)
+  INFO: Error loading includes.xml file (/storage/.xbmc/addons/skin.kowan.dev/720p/MyProgramsInclude.xml): Error reading end tag. (row=11, col=55)
+  INFO:   load new skin...
+  INFO: Loading user windows, path /storage/.xbmc/addons/skin.kowan.dev/720p
+ DEBUG: Load Skin XML: 36.06ms
+  INFO:   initialize new skin...
+ DEBUG: guilib: Fill viewport on change for solving rendering passes
+  INFO: Loading skin file: Pointer.xml, load type: LOAD_ON_GUI_INIT
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 1 times.
+ DEBUG: OpenBundle - Opened bundle /storage/.xbmc/addons/skin.kowan.dev/media/Textures.xbt
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 5 times.
+  INFO: Loading skin file: DialogVolumeBar.xml, load type: LOAD_ON_GUI_INIT
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 3 times.
+  INFO: Loading skin file: DialogKaiToast.xml, load type: LOAD_ON_GUI_INIT
+  INFO: Loading skin file: DialogMuteBug.xml, load type: LOAD_ON_GUI_INIT
+  INFO: Loading skin file: DialogSeekBar.xml, load type: LOAD_ON_GUI_INIT
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 5 times.
+  INFO: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+  INFO: Loading skin file: DialogExtendedProgressBar.xml, load type: LOAD_ON_GUI_INIT
+  INFO: Loading skin file: DialogBusyStatic.xml, load type: LOAD_ON_GUI_INIT
+ DEBUG: CSettingsManager: requested setting (lookandfeel.soundskin) was not found.
+ DEBUG: Previous line repeats 3 times.
+  INFO: Loading special://home/sounds/sounds.xml
+NOTICE: special://home/sounds/sounds.xml, Line 0
+                   Failed to open file
+  INFO:   skin loaded...
+ DEBUG: JSONRPC: JSON schema type stereoscopicmode references an unknown type GUI.Stereoscopy.Mode
+ARNING: JSONRPC: Could not parse type "GUI.Property.Value"
+  INFO: JSONRPC: Adding type "GUI.Property.Value" to list of incomplete definitions (waiting for "GUI.Stereoscopy.Mode")
+  INFO: JSONRPC: Resolving incomplete types/methods referencing GUI.Stereoscopy.Mode
+ DEBUG: JSONRPC: JSON schema type definition references an unknown type Setting.Details.Setting
+ARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+  INFO: JSONRPC: Adding type "Setting.Details.SettingList" to list of incomplete definitions (waiting for "Setting.Details.Setting")
+  INFO: JSONRPC: Resolving incomplete types/methods referencing Setting.Details.Setting
+  INFO: JSONRPC v6.14.3: Successfully initialized
+ DEBUG: ADDON: Starting service addons.
+NOTICE: Thread LanguageInvoker start, auto delete: false
+NOTICE: Previous line repeats 1 times.
+  INFO: initializing python engine.
+  INFO: Previous line repeats 1 times.
+NOTICE: Thread LanguageInvoker start, auto delete: false
+ DEBUG: CSettingsManager: requested setting (lookandfeel.startupwindow) was not found.
+  INFO: initializing python engine.
+NOTICE: Thread LanguageInvoker start, auto delete: false
+ DEBUG: CSettingsManager: requested setting (lookandfeel.startupwindow) was not found.
+NOTICE: Thread JobWorker start, auto delete: true
+  INFO: initializing python engine.
+ DEBUG: Activating window ID: 12999
+ DEBUG: ------ Window Init (Startup.xml) ------
+  INFO: Loading skin file: Startup.xml, load type: LOAD_EVERY_TIME
+ DEBUG: SendMessage: mess=20 send=12999 control=0 param1=0
+NOTICE: PVRManager - starting up
+NOTICE: Thread PVRManager start, auto delete: false
+NOTICE: Thread PVRClient start, auto delete: false
+ DEBUG: RegisterClient - registering add-on 'PVR IPTV Simple Client'
+ DEBUG: PVR - Create - creating PVR add-on instance 'PVR IPTV Simple Client'
+ DEBUG: ADDON: Dll Initializing - PVR IPTV Simple Client
+ DEBUG: SECTION:LoadDLL(/usr/lib/xbmc/addons/pvr.iptvsimple/Kodi_IPTV_Simple.pvr)
+ DEBUG: Loading: /usr/lib/xbmc/addons/pvr.iptvsimple/Kodi_IPTV_Simple.pvr
+ DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+ DEBUG: GOT ANNOUNCEMENT, type: 2, from xbmc, message OnClear
+ DEBUG: SendMessage: mess=1003 send=0 control=0 param1=0
+ DEBUG: AddOnLog: PVR IPTV Simple Client: ADDON_Create - Creating the PVR IPTV Simple add-on
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'm3uPathType'
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'm3uUrl'
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'm3uCache'
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'startNum'
+ DEBUG: CPlayerCoreFactory::GetPlayers(/usr/share/xbmc/media/__SEEBO_MASTER.mp4)
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+ DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtv
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: hdhomerun/myth/mms/udp
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+ DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+ DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+ DEBUG: CPlayerCoreFactory::GetPlayers: adding videodefaultplayer (1)
+ DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=0
+ DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+ DEBUG: CPlayerCoreFactory::GetPlayers: adding player: DVDPlayer (1)
+ DEBUG: CPlayerCoreFactory::GetPlayers: added 1 players
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'epgPathType'
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'epgUrl'
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'epgCache'
+NOTICE: DVDPlayer: Opening: /usr/share/xbmc/media/__SEEBO_MASTER.mp4
+ARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+ DEBUG: CRenderManager::UpdateDisplayLatency - Latency set to 0 msec
+ DEBUG: LinuxRendererGL: Cleaning up GL resources
+NOTICE: Thread DVDPlayer start, auto delete: false
+NOTICE: Creating InputStream
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'epgTimeShift'
+ DEBUG: ScanForExternalSubtitles: Searching for subtitles...
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'epgTSOverride'
+ DEBUG: GetZipList - Processing zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'logoPathType'
+ DEBUG: CAddonCallbacksAddon - GetAddonSetting - add-on 'PVR IPTV Simple Client' requests setting 'logoBaseUrl'
+  INFO: easy_aquire - Created session to http://services.kowantv.com
+ DEBUG: CPythonInvoker(0, /storage/.xbmc/addons/script.cu.lrclyrics/default.py): start processing
+ DEBUG: CPythonInvoker(1, /storage/.xbmc/addons/service.skin.widgets/default.py): start processing
+ DEBUG: CPythonInvoker(2, /storage/.xbmc/addons/script.module.simple.downloader/default.py): start processing
+ DEBUG: CPythonInvoker(3, /storage/.xbmc/addons/service.Change.HostName/default.py): start processing
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/27.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/28.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/29.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/30.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/31.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/32.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/33.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/34.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/35.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/36.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/37.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/38.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/39.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/40.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/41.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/42.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/43.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/44.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/45.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/46.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/47.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/License.txt
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/na.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/0.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/1.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/2.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/3.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/4.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/5.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/6.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/7.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/8.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/9.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/10.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/11.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/12.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/13.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/14.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/15.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/16.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/17.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/18.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/19.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/20.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/21.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/22.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/23.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/24.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/25.png
+ DEBUG: ScanArchiveForSubtitles:: Found file zip://%2fusr%2fshare%2fxbmc%2fmedia%2fweather.zip/26.png
+ DEBUG: ScanForExternalSubtitles: END (total time: 59 ms)
+NOTICE: Creating Demuxer
+ DEBUG: Open - probing detected format [mov,mp4,m4a,3gp,3g2,mj2]
+ DEBUG: Open - avformat_find_stream_info starting
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(0, /storage/.xbmc/addons/script.cu.lrclyrics/default.py): the source file to load is "/storage/.xbmc/addons/script.cu.lrclyrics/default.py"
+ DEBUG: ffmpeg[61FFF140]: [h264] Increasing reorder buffer to 1
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(3, /storage/.xbmc/addons/service.Change.HostName/default.py): the source file to load is "/storage/.xbmc/addons/service.Change.HostName/default.py"
+ DEBUG: CPythonInvoker(0, /storage/.xbmc/addons/script.cu.lrclyrics/default.py): setting the Python path to /storage/.xbmc/addons/script.cu.lrclyrics:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(0, /storage/.xbmc/addons/script.cu.lrclyrics/default.py): entering source directory /storage/.xbmc/addons/script.cu.lrclyrics
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(2, /storage/.xbmc/addons/script.module.simple.downloader/default.py): the source file to load is "/storage/.xbmc/addons/script.module.simple.downloader/default.py"
+ DEBUG: CPythonInvoker(0, /storage/.xbmc/addons/script.cu.lrclyrics/default.py): instantiating addon using automatically obtained id of "script.cu.lrclyrics" dependent on version 2.12.0 of the xbmc.python api
+ DEBUG: CPythonInvoker(3, /storage/.xbmc/addons/service.Change.HostName/default.py): setting the Python path to /storage/.xbmc/addons/service.Change.HostName:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(3, /storage/.xbmc/addons/service.Change.HostName/default.py): entering source directory /storage/.xbmc/addons/service.Change.HostName
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(1, /storage/.xbmc/addons/service.skin.widgets/default.py): the source file to load is "/storage/.xbmc/addons/service.skin.widgets/default.py"
+ DEBUG: CPythonInvoker(3, /storage/.xbmc/addons/service.Change.HostName/default.py): instantiating addon using automatically obtained id of "service.Change.HostName" dependent on version 2.19.0 of the xbmc.python api
+ DEBUG: CPythonInvoker(2, /storage/.xbmc/addons/script.module.simple.downloader/default.py): setting the Python path to /storage/.xbmc/addons/script.module.simple.downloader:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(2, /storage/.xbmc/addons/script.module.simple.downloader/default.py): entering source directory /storage/.xbmc/addons/script.module.simple.downloader
+ DEBUG: CPythonInvoker(2, /storage/.xbmc/addons/script.module.simple.downloader/default.py): instantiating addon using automatically obtained id of "script.module.simple.downloader" dependent on version 2.1.0 of the xbmc.python api
+ DEBUG: CPythonInvoker(1, /storage/.xbmc/addons/service.skin.widgets/default.py): setting the Python path to /storage/.xbmc/addons/service.skin.widgets:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(1, /storage/.xbmc/addons/service.skin.widgets/default.py): entering source directory /storage/.xbmc/addons/service.skin.widgets
+ DEBUG: CPythonInvoker(1, /storage/.xbmc/addons/service.skin.widgets/default.py): instantiating addon using automatically obtained id of "service.skin.widgets" dependent on version 2.14.0 of the xbmc.python api
+ DEBUG: Open - av_find_stream_info finished
+  INFO: ffmpeg[61FFF140]: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/usr/share/xbmc/media/__SEEBO_MASTER.mp4':
+  INFO: ffmpeg[61FFF140]:   Metadata:
+  INFO: ffmpeg[61FFF140]:     major_brand     : mp42
+  INFO: ffmpeg[61FFF140]:     minor_version   : 0
+  INFO: ffmpeg[61FFF140]:     compatible_brands: mp42mp41
+  INFO: ffmpeg[61FFF140]:     creation_time   : 2015-07-03 05:58:24
+  INFO: ffmpeg[61FFF140]:   Duration: 00:00:09.45, start: 0.000000, bitrate: 11547 kb/s
+  INFO: ffmpeg[61FFF140]:     Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080, 11257 kb/s, 25 fps, 25 tbr, 25k tbn, 50 tbc (default)
+  INFO: ffmpeg[61FFF140]:     Metadata:
+  INFO: ffmpeg[61FFF140]:       creation_time   : 2015-07-03 05:58:24
+  INFO: ffmpeg[61FFF140]:       handler_name    : Alias Data Handler
+  INFO: ffmpeg[61FFF140]:       encoder         : AVC Coding
+  INFO: ffmpeg[61FFF140]:     Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, 5.1, fltp, 317 kb/s (default)
+  INFO: ffmpeg[61FFF140]:     Metadata:
+  INFO: ffmpeg[61FFF140]:       creation_time   : 2015-07-03 05:58:24
+  INFO: ffmpeg[61FFF140]:       handler_name    : Alias Data Handler
+ DEBUG: CDVDDemuxFFmpeg::AddStream(0, ...) -> 0
+ DEBUG: CDVDDemuxFFmpeg::AddStream(1, ...) -> 1
+NOTICE: Opening video stream: 0 source: 256
+NOTICE: Creating video codec with codec id: 28
+ DEBUG: CDVDFactoryCodec: compiled in hardware support: CrystalHD:no AMCodec:yes MediaCodec:no OpenMax:no libstagefright:no VDPAU:no VAAPI:no
+ DEBUG: FactoryCodec - Video: amcodec - Opening
+  INFO: CBitstreamConverter::Open bitstream to annexb init
+ DEBUG: SECTION:LoadDLL(libamplayer.so)
+ DEBUG: Loading: libamplayer.so
+ ERROR: Unable to load libamplayer.so, reason: libamplayer.so: cannot open shared object file: No such file or directory
+ DEBUG: Dll libamplayer.so was not found in path
+ARNING: CAMLCodec::CAMLCodec libamplayer.so not found, trying libamcodec.so instead
+ DEBUG: SECTION:LoadDLL(libamcodec.so)
+ DEBUG: Loading: libamcodec.so
+  INFO: DVDVideoCodecAmlogic: Opened Amlogic Codec
+ DEBUG: FactoryCodec - Video: am-h264 - Opened
+NOTICE: Creating video thread
+NOTICE: Thread DVDPlayerVideo start, auto delete: false
+NOTICE: running thread: video_thread
+NOTICE: Opening audio stream: 1 source: 256
+NOTICE: Finding audio codec for: 86018
+ DEBUG: CDVDPlayerVideo - CDVDMsg::GENERAL_SYNCHRONIZE
+ DEBUG: FactoryCodec - Audio: passthrough - Opening
+ DEBUG: FactoryCodec - Audio: passthrough - Failed
+ DEBUG: FactoryCodec - Audio: FFmpeg - Opening
+ DEBUG: FactoryCodec - Audio: FFmpeg - Opened
+NOTICE: Creating audio thread
+NOTICE: Thread DVDPlayerAudio start, auto delete: false
+NOTICE: running thread: CDVDPlayerAudio::Process()
+ DEBUG: ReadEditDecisionLists - Checking for edit decision lists (EDL) on local drive or remote share for: /usr/share/xbmc/media/__SEEBO_MASTER.mp4
+ DEBUG: OnPlayBackStarted : play state was 1, starting 1
+ DEBUG: PlayFile : OpenFile succeed, play state 2
+ DEBUG: OnPlayBackStarted : play state was 2, starting 0
+ DEBUG: SendMessage: mess=20 send=12999 control=0 param1=0
+ DEBUG: Activating window ID: 10000
+ DEBUG: ------ Window Deinit (Startup.xml) ------
+ DEBUG: ------ Window Init (Home.xml) ------
+  INFO: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+ DEBUG: CDVDPlayer::SetCaching - caching state 3
+ DEBUG: CAMLCodec::SetSpeed, speed(0)
+ DEBUG: CDVDPlayerVideo - CDVDMsg::GENERAL_RESYNC(0.000000, 1)
+  INFO: CDVDPlayerVideo - Stillframe left, switching to normal playback
+ DEBUG: DVDVideoCodecAmlogic: detected h264 aspect ratio(1.777778)
+ DEBUG: codecid_to_vformat, id(28) -> vformat(2)
+ DEBUG: codec_tag_to_vdec_type, codec_tag(828601953) -> vdec_type(4)
+ DEBUG: CAMLCodec::OpenDecoder hints.width(1920), hints.height(1080), hints.codec(28), hints.codec_tag(828601953), hints.profile(77), hints.pid(1)
+ DEBUG: CAMLCodec::OpenDecoder hints.fpsrate(25), hints.fpsscale(1), video_rate(3840)
+ DEBUG: CAMLCodec::OpenDecoder hints.aspect(1.777778), video_ratio.num(1), video_ratio.den(1)
+ DEBUG: CAMLCodec::OpenDecoder hints.orientation(0), hints.forced_aspect(1), hints.extrasize(37)
+ DEBUG: CDVDPlayer::CheckContinuity - resync backward :2, prev:160000.000000, curr:40000.000000, diff:-120000.000000
+ARNING: Skin has invalid include: Channels
+NOTICE: Creating audio stream (codec id: 86018, channels: 6, sample rate: 48000, no pass-through)
+ DEBUG: CDVDPlayerAudio:: synctype set to 0: clock feedback
+ DEBUG: CSettingsManager: requested setting (audiooutput.guisoundmode) was not found.
+ DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+ DEBUG: SendMessage: mess=20 send=10000 control=0 param1=0
+ DEBUG: SendMessage: mess=3 send=10000 control=299 param1=2
+ DEBUG: SendMessage: mess=20 send=12999 control=0 param1=0
+  INFO: removing tempfiles
+ DEBUG: ADDON: Starting service addons.
+NOTICE: Thread LanguageInvoker start, auto delete: false
+  INFO: initializing python engine.
+ DEBUG: CPythonInvoker(4, /etc/seebo/CheckUpdateInternet.py): start processing
+NOTICE: initialize done
+NOTICE: Running the application...
+ DEBUG: SendMessage: mess=1005 send=0 control=0 param1=0
+ DEBUG: CGUIInfoManager::SetCurrentMovie(/usr/share/xbmc/media/__SEEBO_MASTER.mp4)
+NOTICE: Thread LanguageInvoker start, auto delete: false
+  INFO: initializing python engine.
+ DEBUG: CPythonInvoker(6, /storage/.xbmc/addons/script.common.plugin.cache/default.py): start processing
+NOTICE: Thread LanguageInvoker start, auto delete: false
+  INFO: initializing python engine.
+ DEBUG: CPythonInvoker(8, /storage/.xbmc/addons/plugin.video.specto/service.py): start processing
+  INFO: CActiveAESink::OpenSink - initialize sink
+NOTICE: Thread LanguageInvoker start, auto delete: false
+  INFO: initializing python engine.
+ DEBUG: CAMLCodec::SetSpeed, speed(1000)
+ DEBUG: GetMovieId (/usr/share/xbmc/media/__SEEBO_MASTER.mp4), query = select idMovie from movie where idFile=1
+NOTICE: Thread LanguageInvoker start, auto delete: false
+  INFO: initializing python engine.
+ DEBUG: CPythonInvoker(5, /usr/share/xbmc/addons/service.openelec.settings/service.py): start processing
+ DEBUG: CPythonInvoker(7, /storage/.xbmc/addons/script.module.universal/default.py): start processing
+ DEBUG: DVDVideoCodecAmlogic: detected new framerate(25.000000), video_rate(3840)
+NOTICE: Thread CAMLCodec start, auto delete: false
+ DEBUG: GetEpisodeId (/usr/share/xbmc/media/__SEEBO_MASTER.mp4), query = select idEpisode from episode where idFile=1
+ DEBUG: GetMusicVideoId (/usr/share/xbmc/media/__SEEBO_MASTER.mp4), query = select idMVideo from musicvideo where idFile=1
+ DEBUG: CAMLCodec::Process Started
+ DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.* FROM (SELECT idAlbum FROM albumview ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum=recentalbums.idAlbum
+ DEBUG: GetRecentlyAddedAlbums query: select * from albumview where strAlbum != '' order by idAlbum desc limit 10
+NOTICE:  fps: 25.000000, pwidth: 1920, pheight: 1080, dwidth: 1920, dheight: 1080
+ DEBUG: OutputPicture - change configuration. 1920x1080. framerate: 25.00. format: BYPASS
+NOTICE: Display resolution DESKTOP : 1920x1080 @ 60.00 - Full Screen (16)
+ DEBUG: CXBMCRenderManager::Configure - 3
+ DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+ DEBUG: RunQuery took 2 ms for 0 items query: select * from movieview  ORDER BY dateAdded desc, idMovie desc LIMIT 10
+ DEBUG: RunQuery took 4 ms for 0 items query: select * from episodeview  ORDER BY dateAdded desc, idEpisode desc LIMIT 10
+ DEBUG: RunQuery took 3 ms for 0 items query: select * from musicvideoview  ORDER BY dateAdded desc, idMVideo desc LIMIT 10
+ DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+NOTICE: Thread JobWorker start, auto delete: true
+ DEBUG: GetMovieId (/usr/share/xbmc/media/__SEEBO_MASTER.mp4), query = select idMovie from movie where idFile=1
+ DEBUG: GetEpisodeId (/usr/share/xbmc/media/__SEEBO_MASTER.mp4), query = select idEpisode from episode where idFile=1
+ DEBUG: GetMusicVideoId (/usr/share/xbmc/media/__SEEBO_MASTER.mp4), query = select idMVideo from musicvideo where idFile=1
+ DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+ DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+ DEBUG: no profile autoexec.py (/storage/.xbmc/userdata/autoexec.py) found, skipping
+ DEBUG: NetworkMessage - Starting network services
+NOTICE: ES: Starting event server
+  INFO: JSONRPC Server: Successfully initialized
+ DEBUG: Activating window ID: 12005
+ DEBUG: ------ Window Deinit (Home.xml) ------
+ DEBUG: ------ Window Init (VideoFullScreen.xml) ------
+  INFO: Loading skin file: VideoFullScreen.xml, load type: KEEP_IN_MEMORY
+NOTICE: Thread EventServer start, auto delete: false
+NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+NOTICE: UDP: Listening on port 9777
+NOTICE: Thread TCPServer start, auto delete: false
+ DEBUG: CU LRC Lyrics: script version 2.0.12 started
+ DEBUG: CU LRC Lyrics: mode is service
+NOTICE: AddOnLog: PVR IPTV Simple Client: Loaded 14 channels.
+ DEBUG: CAddonCallbacksAddon - QueueNotification - PVR IPTV Simple Client - Info Message : '14 channels loaded.'
+ DEBUG: PVRManager - Load - active clients found. continue to start
+ DEBUG: PVRManager - Load - Show Progress Bar ? - true
+ DEBUG: PVRManager - Load - First Time Delay for [Loading channels from clients....] - Start
+ DEBUG: CDVDPlayer::SetCaching - caching state 0
+  INFO: Found input device /dev/input/event0
+  INFO: opened device 'aml_keypad' (file name /dev/input/event0), m_bSkipNonKeyEvents 0
+ DEBUG: CActiveAESink::OpenSink - trying to open device ALSA:hdmi:CARD=AMLM8AUDIO,DEV=0
+ DEBUG: CAESinkALSA::GetChannelLayout - Input Channel Count: 2 Output Channel Count: 2
+ DEBUG: CAESinkALSA::GetChannelLayout - Requested Layout: FL,FR
+ DEBUG: CAESinkALSA::GetChannelLayout - Got Layout: FL,FR
+  INFO: CAESinkALSA::Initialize - Attempting to open device "default"
+  INFO: CAESinkALSA::Initialize - Opened device "default"
+  INFO: CAESinkALSA::InitializeHW - Your hardware does not support AE_FMT_FLOAT, trying other formats
+  INFO: CAESinkALSA::InitializeHW - Using data format AE_FMT_S32NE
+ DEBUG: CAESinkALSA::InitializeHW - Min: periodSize 8, periods 2, bufferSize 16
+ DEBUG: CAESinkALSA::InitializeHW - Max: periodSize 8192, periods 1024, bufferSize 65536
+ DEBUG: CAESinkALSA::InitializeHW - Request: periodSize 2048, periods 8, bufferSize 16384
+ DEBUG: CAESinkALSA::InitializeHW - Got: periodSize 2048, bufferSize 16384
+ DEBUG: CAESinkALSA::InitializeHW - Setting timeout to 342 ms
+ DEBUG: CAESinkALSA::GetChannelLayout - Input Channel Count: 2 Output Channel Count: 2
+ DEBUG: CAESinkALSA::GetChannelLayout - Requested Layout: FL,FR
+ DEBUG: CAESinkALSA::GetChannelLayout - Got Layout: FL,FR
+ DEBUG: CActiveAESink::OpenSink - ALSA Initialized:
+ DEBUG:   Output Device : AML-M8AUDIO
+ DEBUG:   Sample Rate   : 48000
+ DEBUG:   Sample Format : AE_FMT_S32NE
+ DEBUG:   Channel Count : 2
+ DEBUG:   Channel Layout: FL,FR
+ DEBUG:   Frames        : 2048
+ DEBUG:   Frame Samples : 4096
+ DEBUG:   Frame Size    : 8
+ DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+ DEBUG: CDVDPlayerAudio - CDVDMsg::GENERAL_RESYNC(181333.333333, 0)
+ DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+ DEBUG: CDVDPlayerAudio:: Discontinuity1 - was:75656.750000, should be:160605.833228, error:84949.083228
+ DEBUG: CDVDPlayer::HandleMessages - player started 1
+ DEBUG: CDVDPlayerAudio:: Discontinuity1 - was:287507.583228, should be:181333.333333, error:-106174.249895
+ DEBUG: CAMLCodec::SetSpeed, speed(1000)
+ DEBUG: CDVDPlayer::HandleMessages - player started 2
+  INFO: Found input device /dev/input/event2
+  INFO: opened device 'cec_input' (file name /dev/input/event2), m_bSkipNonKeyEvents 0
+  INFO: CPythonInvoker(3, /storage/.xbmc/addons/service.Change.HostName/default.py): script successfully run
+  INFO: Python script stopped
+ DEBUG: Thread LanguageInvoker 547004346688 terminating
+  INFO: Found input device /dev/input/event3
+  INFO: opened device 'AirMouse' (file name /dev/input/event3), m_bSkipNonKeyEvents 0
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(6, /storage/.xbmc/addons/script.common.plugin.cache/default.py): the source file to load is "/storage/.xbmc/addons/script.common.plugin.cache/default.py"
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(5, /usr/share/xbmc/addons/service.openelec.settings/service.py): the source file to load is "/usr/share/xbmc/addons/service.openelec.settings/service.py"
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(8, /storage/.xbmc/addons/plugin.video.specto/service.py): the source file to load is "/storage/.xbmc/addons/plugin.video.specto/service.py"
+ DEBUG: CPythonInvoker(6, /storage/.xbmc/addons/script.common.plugin.cache/default.py): setting the Python path to /storage/.xbmc/addons/script.common.plugin.cache:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(6, /storage/.xbmc/addons/script.common.plugin.cache/default.py): entering source directory /storage/.xbmc/addons/script.common.plugin.cache
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(7, /storage/.xbmc/addons/script.module.universal/default.py): the source file to load is "/storage/.xbmc/addons/script.module.universal/default.py"
+ DEBUG: Skin Widgets: script version 0.0.32 started
+ DEBUG: CPythonInvoker(5, /usr/share/xbmc/addons/service.openelec.settings/service.py): setting the Python path to /usr/share/xbmc/addons/service.openelec.settings:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(5, /usr/share/xbmc/addons/service.openelec.settings/service.py): entering source directory /usr/share/xbmc/addons/service.openelec.settings
+ DEBUG: CPythonInvoker(5, /usr/share/xbmc/addons/service.openelec.settings/service.py): instantiating addon using automatically obtained id of "service.openelec.settings" dependent on version 2.1.0 of the xbmc.python api
+ DEBUG: CPythonInvoker(6, /storage/.xbmc/addons/script.common.plugin.cache/default.py): instantiating addon using automatically obtained id of "script.common.plugin.cache" dependent on version 2.1.0 of the xbmc.python api
+  INFO: Found input device /dev/input/event4
+  INFO: opened device 'AirMouse' (file name /dev/input/event4), m_bSkipNonKeyEvents 0
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 1 times.
+ DEBUG: ------ Window Init (Custom_Overlay.xml) ------
+  INFO: Loading skin file: Custom_Overlay.xml, load type: KEEP_IN_MEMORY
+  INFO: GLES: Enabling VSYNC
+  INFO: GLES: Selected vsync mode 10
+NOTICE: Using GL_TEXTURE_2D
+ DEBUG: GL: Requested render method: 0
+NOTICE: GL: Using BYPASS render method
+NOTICE: GL: NPOT texture support detected
+ DEBUG: CLinuxRendererGLES: Reorder drawpoints due to method change from 1 to 256
+ DEBUG: LogindUPowerSyscall - Received unknown signal NameAcquired
+ DEBUG: ------ Window Init (DialogKaiToast.xml) ------
+ ERROR: Control 402 in window 10107 has been asked to focus, but it can't
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 3 times.
+ DEBUG: SECTION:LoadDLL(special://xbmcbin/system/ImageLib-aarch64.so)
+ DEBUG: Loading: /usr/lib/xbmc/system/ImageLib-aarch64.so
+ DEBUG: CAMLCodec::SetVideoRect:display(0,0,1920,1080)
+ DEBUG: CAMLCodec::SetVideoRect:gui(0,0,1920,1080)
+ DEBUG: CAMLCodec::SetVideoRect:m_dst_rect(0,0,1920,1080)
+ DEBUG: CAMLCodec::SetVideoRect:dst_rect(0,0,1920,1080)
+ DEBUG: CAMLCodec::SetVideoRect:m_stereo_mode(0)
+ DEBUG: CAMLCodec::SetVideoRect:m_stereo_view(0)
+  INFO: CPythonInvoker(2, /storage/.xbmc/addons/script.module.simple.downloader/default.py): script successfully run
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(4, /etc/seebo/CheckUpdateInternet.py): the source file to load is "/etc/seebo/CheckUpdateInternet.py"
+ DEBUG: CPythonInvoker(7, /storage/.xbmc/addons/script.module.universal/default.py): setting the Python path to /storage/.xbmc/addons/script.module.universal:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+  INFO: Python script stopped
+ DEBUG: CPythonInvoker(7, /storage/.xbmc/addons/script.module.universal/default.py): entering source directory /storage/.xbmc/addons/script.module.universal
+ DEBUG: Thread LanguageInvoker 547138564416 terminating
+ DEBUG: CPythonInvoker(7, /storage/.xbmc/addons/script.module.universal/default.py): instantiating addon using automatically obtained id of "script.module.universal" dependent on version 2.1.0 of the xbmc.python api
+ DEBUG: RunQuery took 2 ms for 0 items query: select * from movieview  WHERE ((movieview.playCount IS NULL OR movieview.playCount < 1))
+ DEBUG: RunQuery took 1 ms for 0 items query: select * from episodeview  WHERE ((episodeview.playCount IS NULL OR episodeview.playCount < 1))
+ DEBUG: RunQuery took 1 ms for 0 items query: select * from musicvideoview
+ DEBUG: GetAlbumsByWhere query: SELECT albumview.* FROM albumview  WHERE albumview.strAlbum <> ''
+ DEBUG: GetAlbumsByWhere - query took 0 ms
+ DEBUG: GetArtistsByWhere query: SELECT artistview.* FROM artistview  WHERE (artistview.idArtist IN (SELECT song_artist.idArtist FROM song_artist) OR artistview.idArtist IN (SELECT album_artist.idArtist FROM album_artist)) and artistview.strArtist != '' and artistview.strArtist <> 'Various artists'
+ DEBUG: Time to retrieve artists from dataset = 1
+ DEBUG: GetSongsByWhere query = SELECT songview.* FROM songview  WHERE ((CAST(songview.iTimesPlayed as DECIMAL(5,1)) < 1))
+NOTICE: SEROESET  mainWindow::__init__(self, *args, **kwargs)
+NOTICE: ## OpenELEC Addon ## 0.3.20
+NOTICE: SEROESET=oe.py load_file(filename)
+NOTICE: Previous line repeats 4 times.
+NOTICE: SEROESET=oe.py read_setting(module :openelec , setting=wizard_completed, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== read_settings value: True
+NOTICE: SEROESET===xxx===== return:True
+ DEBUG: CPythonInvoker(4, /etc/seebo/CheckUpdateInternet.py): setting the Python path to /etc/seebo:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(4, /etc/seebo/CheckUpdateInternet.py): entering source directory /etc/seebo
+ DEBUG: CPythonInvoker(8, /storage/.xbmc/addons/plugin.video.specto/service.py): setting the Python path to /storage/.xbmc/addons/plugin.video.specto:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(8, /storage/.xbmc/addons/plugin.video.specto/service.py): entering source directory /storage/.xbmc/addons/plugin.video.specto
+ DEBUG: CPythonInvoker(8, /storage/.xbmc/addons/plugin.video.specto/service.py): instantiating addon using automatically obtained id of "plugin.video.specto" dependent on version 2.1.0 of the xbmc.python api
+  INFO: CPythonInvoker(8, /storage/.xbmc/addons/plugin.video.specto/service.py): script successfully run
+  INFO: Python script stopped
+ DEBUG: Thread LanguageInvoker 546946154816 terminating
+ DEBUG: RunScriptWithParams - calling plugin Specto - ... Fork('plugin://plugin.video.specto/','-1','?action=service')
+NOTICE: Thread LanguageInvoker start, auto delete: false
+  INFO: initializing python engine.
+ DEBUG: CPythonInvoker(9, /storage/.xbmc/addons/plugin.video.specto/default.py): start processing
+  INFO: CPythonInvoker(4, /etc/seebo/CheckUpdateInternet.py): script successfully run
+  INFO: Python script stopped
+ DEBUG: Thread LanguageInvoker 546979709248 terminating
+NOTICE: SEROESET======== oe.py load_modules()
+NOTICE:  StorageServer Module loaded RUN
+NOTICE: 13
+NOTICE: StorageClient-2.5.4 Starting server
+NOTICE: SEROESET-ABOUT __init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## about::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## about::__init__ ## exit_function
+NOTICE: None
+NOTICE: Universal - An Addons Toolkit: -watchhistory- -Loading sqlite3 as DB engine version: 3.12.0
+NOTICE: Universal - An Addons Toolkit: - watchhistory - -Auto Cleanup Start
+NOTICE: SEROESET-Xdbus __init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## xdbus::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## xdbus::__init__ ## exit_function
+NOTICE: None
+ DEBUG: Universal - An Addons Toolkit: -watchhistory- -Table watch_history initialized
+NOTICE: Universal - An Addons Toolkit: -watchhistory- -DELETE FROM watch_history WHERE lastwatched < '2016-12-13'
+NOTICE: SEROESET-System __init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## system::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## system::__init__ ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## bluetooth::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## bluetooth::__init__ ## exit_function
+NOTICE: None
+NOTICE: Universal - An Addons Toolkit: - watchhistory - -Auto Cleanup End
+  INFO: CPythonInvoker(7, /storage/.xbmc/addons/script.module.universal/default.py): script successfully run
+ DEBUG: Skin Widgets: Total time needed to request random queries: 732 days, 7:28:52.975059
+ DEBUG: RunQuery took 2 ms for 0 items query: select * from movieview  WHERE (movieview.idFile  IN (SELECT DISTINCT idFile FROM bookmark WHERE type = 1))
+ DEBUG: RunQuery took 3 ms for 0 items query: SELECT * FROM tvshowview  WHERE ( ((tvshowview.watchedcount > 0 AND tvshowview.watchedcount < tvshowview.totalCount) OR (tvshowview.watchedcount = 0 AND EXISTS (SELECT 1 FROM episodeview WHERE episodeview.idShow = tvshowview.idShow AND episodeview.resumeTimeInSeconds > 0))))
+ DEBUG: GetAlbumsByWhere query: SELECT albumview.* FROM albumview  WHERE albumview.strAlbum <> ''
+ DEBUG: GetAlbumsByWhere - query took 1 ms
+ DEBUG: RunQuery took 2 ms for 0 items query: select * from musicvideoview
+ DEBUG: Skin Widgets: Total time needed to request recommended queries: 0:00:00.074695
+ DEBUG: RunQuery took 1 ms for 0 items query: select * from movieview  WHERE ((movieview.playCount IS NULL OR movieview.playCount = 0))
+NOTICE: SEROESET-Connman __init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## connman::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::__init__ ## exit_function
+NOTICE: None
+ DEBUG: RunQuery took 2 ms for 0 items query: select * from episodeview  WHERE ((episodeview.playCount IS NULL OR episodeview.playCount < 1))
+NOTICE: SEROESET-SERVICES __init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## services::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## services::__init__ ## exit_function
+NOTICE: None
+NOTICE: -->Python Interpreter Initialized<--
+ DEBUG: CPythonInvoker(9, /storage/.xbmc/addons/plugin.video.specto/default.py): the source file to load is "/storage/.xbmc/addons/plugin.video.specto/default.py"
+ DEBUG: CDVDPlayerAudio:: Discontinuity2 - was:2187202.625333, should be:2166328.146745, error:-20874.478588
+ DEBUG: RunQuery took 1 ms for 0 items query: select * from musicvideoview
+NOTICE: SEROESET=oe.py load_file(filename)
+  INFO: Python script stopped
+ DEBUG: Thread LanguageInvoker 546954543424 terminating
+NOTICE: SEROESET-TOC__init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## toc::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## toc::__init__ ## exit_function
+NOTICE: None
+ DEBUG: GetAlbumsByWhere query: SELECT albumview.* FROM albumview  WHERE albumview.strAlbum <> ''
+ DEBUG: GetAlbumsByWhere - query took 1 ms
+ DEBUG: Skin Widgets: Total time needed to request recent items queries: 0:00:00.152039
+ DEBUG: Skin Widgets: Total time needed for all queries: 732 days, 7:28:53.202936
+ ERROR: ## OpenELEC Addon ## oe::MAIN(loadingModules)(strModule) ## ERROR: (ImportError('No module named register',))
+NOTICE: Traceback (most recent call last):
+                     File "/home/peng/seebo/seebo_eco/LE_7.0_1.0/build.KowanTV-KOWAN2.aarch64-7.0-devel/service.openelec.settings-KOWAN2/.install_pkg/usr/share/xbmc/addons/service.openelec.settings/oe.py", line 967, in load_modules
+                     File "/home/peng/seebo/seebo_eco/LE_7.0_1.0/build.KowanTV-KOWAN2.aarch64-7.0-devel/service.openelec.settings-KOWAN2/.install_pkg/usr/share/xbmc/addons/service.openelec.settings/resources/lib/modules/selectiptv.py", line 14, in <module>
+                   ImportError: No module named register
+NOTICE: SEROESET=oe.py start_service()
+NOTICE: SEROESET-Connman start_service(self)
+ DEBUG: ## OpenELEC Addon ## connman::start_service ## enter_function
+NOTICE: None
+NOTICE: SEROESET-Connman load_values(self)
+ DEBUG: ## OpenELEC Addon ## connman::load_values ## enter_function
+NOTICE: None
+ DEBUG: CPythonInvoker(9, /storage/.xbmc/addons/plugin.video.specto/default.py): setting the Python path to /storage/.xbmc/addons/plugin.video.specto:/storage/.xbmc/addons/script.module.pyamf/lib:/storage/.xbmc/addons/script.module.xbmcswift/lib:/storage/.xbmc/addons/script.module.t0mm0.common/lib:/storage/.xbmc/addons/script.module.demjson/lib:/storage/.xbmc/addons/script.module.socksipy/lib:/storage/.xbmc/addons/script.module.chardet/lib:/storage/.xbmc/addons/script.module.simplejson/lib:/storage/.xbmc/addons/script.module.xmltodict/lib:/storage/.xbmc/addons/script.module.brightcove/lib:/storage/.xbmc/addons/script.module.myconnpy/lib:/storage/.xbmc/addons/script.module.addon.common/lib:/storage/.xbmc/addons/script.module.beautifulsoup/lib:/storage/.xbmc/addons/script.module.pyxbmct/lib:/usr/share/xbmc/addons/script.module.pil/lib:/storage/.xbmc/addons/script.common.plugin.cache/lib:/storage/.xbmc/addons/script.module.simple.downloader/lib:/storage/.xbmc/addons/script.module.requests/lib:/storage/.xbmc/addons/script.module.urlresolver/lib:/storage/.xbmc/addons/script.video.F4mProxy/lib:/storage/.xbmc/addons/script.mrknow.urlresolver/lib:/storage/.xbmc/addons/script.module.oauth.helper/lib:/storage/.xbmc/addons/script.exodus.artwork/lib:/storage/.xbmc/addons/script.module.universal/lib:/storage/.xbmc/addons/script.module.mutagen/lib:/storage/.xbmc/addons/script.module.buggalo/lib:/storage/.xbmc/addons/script.module.letterscroll/lib/setup.py:/storage/.xbmc/addons/script.module.mechanize/lib:/usr/share/xbmc/addons/xbmc.debug/:/storage/.xbmc/addons/script.module.parsedom/lib:/storage/.xbmc/addons/script.module.xbmcutil/lib:/storage/.xbmc/addons/script.module.xbmcswift2/lib:/storage/.xbmc/addons/script.module.liveresolver/lib:/storage/.xbmc/addons/script.module.elementtree/lib:/storage/.xbmc/addons/script.module.requests2/lib:/storage/.xbmc/addons/script.module.metahandler/lib:/usr/lib/python27.zip:/usr/lib/python2.7:/usr/lib/python2.7/plat-linux2:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/usr/lib/python2.7/site-packages:/usr/lib/python2.7/site-packages/gtk-2.0
+ DEBUG: CPythonInvoker(9, /storage/.xbmc/addons/plugin.video.specto/default.py): entering source directory /storage/.xbmc/addons/plugin.video.specto
+ DEBUG: CPythonInvoker(9, /storage/.xbmc/addons/plugin.video.specto/default.py): instantiating addon using automatically obtained id of "plugin.video.specto" dependent on version 2.1.0 of the xbmc.python api
+ DEBUG: ## OpenELEC Addon ## connman::load_values ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::start_service ## exit_function
+NOTICE: None
+NOTICE: SEROESET-SERVICES start_service(self)
+ DEBUG: ## OpenELEC Addon ## services::start_service ## enter_function
+NOTICE: None
+NOTICE: SEROESET-SERVICES load_values(self)
+ DEBUG: ## OpenELEC Addon ## services::load_values ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py get_service_option(service, option, default=None)
+NOTICE: Previous line repeats 10 times.
+ DEBUG: ## OpenELEC Addon ## services::load_values ## exit_function
+NOTICE: None
+NOTICE: SEROESET-SERVICES initialize_samba(self, **kwargs)
+ DEBUG: ## OpenELEC Addon ## services::initialize_samba ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+NOTICE: SEROESET=oe.py set_service_option(service, option, value)
+NOTICE: Previous line repeats 1 times.
+NOTICE: SEROESET-SERVICES load_values(self)
+ DEBUG: ## OpenELEC Addon ## services::load_values ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py get_service_option(service, option, default=None)
+NOTICE: Previous line repeats 10 times.
+ DEBUG: ## OpenELEC Addon ## services::load_values ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## services::initialize_samba ## exit_function
+NOTICE: None
+NOTICE: SEROESET-SERVICES initialize_ssh(self, **kwargs)
+ DEBUG: ## OpenELEC Addon ## services::initialize_ssh ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+NOTICE: SEROESET=oe.py set_service_option(service, option, value)
+NOTICE: Previous line repeats 1 times.
+NOTICE: SEROESET-SERVICES load_values(self)
+ DEBUG: ## OpenELEC Addon ## services::load_values ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py get_service_option(service, option, default=None)
+NOTICE: Previous line repeats 10 times.
+ DEBUG: ## OpenELEC Addon ## services::load_values ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## services::initialize_ssh ## exit_function
+NOTICE: None
+NOTICE: SEROESET-SERVICES initialize_avahi(self, **kwargs)
+ DEBUG: ## OpenELEC Addon ## services::initialize_avahi ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+NOTICE: SEROESET=oe.py set_service_option(service, option, value)
+NOTICE: SEROESET-SERVICES load_values(self)
+ DEBUG: ## OpenELEC Addon ## services::load_values ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py get_service_option(service, option, default=None)
+NOTICE: Previous line repeats 10 times.
+ DEBUG: ## OpenELEC Addon ## services::load_values ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## services::initialize_avahi ## exit_function
+NOTICE: None
+NOTICE: SEROESET-SERVICES initialize_cron(self, **kwargs)
+ DEBUG: ## OpenELEC Addon ## services::initialize_cron ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+NOTICE: SEROESET=oe.py set_service_option(service, option, value)
+NOTICE: SEROESET-SERVICES load_values(self)
+ DEBUG: ## OpenELEC Addon ## services::load_values ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py get_service_option(service, option, default=None)
+NOTICE: Previous line repeats 10 times.
+ DEBUG: ## OpenELEC Addon ## services::load_values ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## services::initialize_cron ## exit_function
+NOTICE: None
+NOTICE: SEROESET-SERVICES init_bluetooth(self, **kwargs)
+ DEBUG: ## OpenELEC Addon ## services::init_bluetooth ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+NOTICE: SEROESET=oe.py set_service_option(service, option, value)
+NOTICE: [SPECTO]: ->----------                PARAMS: {'action': 'service'}
+NOTICE: [SPECTO]: ->----------                PARAMS: {'action': 'service'}
+NOTICE: SEROESET=oe.py set_service_option(service, option, value)
+NOTICE: Previous line repeats 1 times.
+NOTICE: SEROESET-SERVICES load_values(self)
+ DEBUG: ## OpenELEC Addon ## services::load_values ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py get_service_option(service, option, default=None)
+NOTICE: Previous line repeats 10 times.
+ DEBUG: ## OpenELEC Addon ## services::load_values ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## services::init_bluetooth ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## services::start_service ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System start_service(self)
+ DEBUG: ## OpenELEC Addon ## system::start_service ## enter_function
+NOTICE: None
+NOTICE: SEROESET-System load_values(self)
+ DEBUG: ## OpenELEC Addon ## system::load_values ## enter_function
+NOTICE: None
+NOTICE: SEROESET oe.py execute(command_line, get_result=0)
+ DEBUG: ## OpenELEC Addon ## oe::execute ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute::command ## cat /proc/cpuinfo | grep -q 'flags.* lm ' && echo '1' || echo '0'
+NOTICE: None
+NOTICE: SEROESET-System get_keyboard_layouts(self)
+ DEBUG: ## OpenELEC Addon ## system::get_keyboard_layouts ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## system::get_keyboard_layouts ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System get_lcd_drivers(self)
+ DEBUG: ## OpenELEC Addon ## system::get_lcd_drivers ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## system::get_lcd_drivers ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=KeyboardLayout1, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=KeyboardVariant1, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=KeyboardLayout2, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=KeyboardVariant2, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=hostname, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=lcd, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=enable_hdd_standby, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=AutoUpdate, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+NOTICE: SEROESET=oe.py read_setting(module :system , setting=UpdateNotify, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== return: NONE
+ DEBUG: ## OpenELEC Addon ## system::load_values ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System set_hostname(self, listItem=None)
+ DEBUG: ## OpenELEC Addon ## system::set_hostname ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+  INFO: ## OpenELEC Addon ## system::set_hostname ## SeeboTV
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ ERROR: ## OpenELEC Addon ## system::set_hostname ## ERROR: (IOError(30, 'Read-only file system'))
+NOTICE: Traceback (most recent call last):
+                     File "/home/peng/seebo/seebo_eco/LE_7.0_1.0/build.KowanTV-KOWAN2.aarch64-7.0-devel/service.openelec.settings-KOWAN2/.install_pkg/usr/share/xbmc/addons/service.openelec.settings/resources/lib/modules/system.py", line 594, in set_hostname
+                   IOError: [Errno 30] Read-only file system: '/etc/hosts'
+NOTICE: SEROESET-System set_keyboard_layout(self, listItem=None)
+ DEBUG: ## OpenELEC Addon ## system::set_keyboard_layout ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+  INFO: ## OpenELEC Addon ## system::set_keyboard_layout ## us
+NOTICE: None
+  INFO: ## OpenELEC Addon ## system::set_keyboard_layout ## loadkmap < `ls -1 /usr/lib/keymaps/*/us.bmap`
+NOTICE: None
+NOTICE: SEROESET oe.py execute(command_line, get_result=0)
+ DEBUG: ## OpenELEC Addon ## oe::execute ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute::command ## loadkmap < `ls -1 /usr/lib/keymaps/*/us.bmap`
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## system::set_keyboard_layout ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System set_lcd_driver(self, listItem=None)
+ DEBUG: ## OpenELEC Addon ## system::set_lcd_driver ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+  INFO: ## OpenELEC Addon ## system::set_lcd_driver ## no driver selected
+NOTICE: None
+NOTICE: SEROESET oe.py execute(command_line, get_result=0)
+ DEBUG: ## OpenELEC Addon ## oe::execute ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute::command ## killall LCDd
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## system::set_lcd_driver ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System set_hdd_standby(self, listItem=None)
+ DEBUG: ## OpenELEC Addon ## system::set_hdd_standby ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+  INFO: ## OpenELEC Addon ## system::set_hdd_standby ## 0 (off)
+NOTICE: None
+NOTICE: SEROESET oe.py execute(command_line, get_result=0)
+ DEBUG: ## OpenELEC Addon ## oe::execute ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute::command ## killall hd-idle
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py set_busy(state)
+ DEBUG: ## OpenELEC Addon ## system::set_hdd_standby ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System set_hw_clock(self)
+ DEBUG: ## OpenELEC Addon ## system::set_hw_clock ## enter_function
+NOTICE: None
+NOTICE: SEROESET oe.py execute(command_line, get_result=0)
+ DEBUG: ## OpenELEC Addon ## oe::execute ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute::command ## /sbin/hwclock --systohc --utc
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## oe::execute ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## system::set_hw_clock ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System set_auto_update(self, listItem=None)
+ DEBUG: ## OpenELEC Addon ## system::set_auto_update ## enter_function
+NOTICE: None
+NOTICE: SEROESET-System __init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## system::updateThread::__init__ ## enter_function
+NOTICE: None
+  INFO: ## OpenELEC Addon ## system::updateThread ## Started
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## system::updateThread::__init__ ## exit_function
+NOTICE: None
+NOTICE: SEROESET-System run(self)
+ DEBUG: ## OpenELEC Addon ## system::updateThread::run ## enter_function
+NOTICE: None
+  INFO: ## OpenELEC Addon ## system::set_auto_update ## manual
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## system::set_auto_update ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## system::start_service ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## bluetooth::start_service ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## bluetooth::start_service ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Xdbus start_service(self)
+ DEBUG: ## OpenELEC Addon ## xdbus::start_service ## enter_function
+NOTICE: None
+NOTICE: SEROESET-Xdbus __init__(self, oeMain)
+ DEBUG: ## OpenELEC Addon ## xdbus::dbusMonitor::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## xdbus::dbusMonitor::__init__ ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Xdbus run(self)
+ DEBUG: ## OpenELEC Addon ## xdbus::dbusMonitor::run ## enter_function
+NOTICE: None
+NOTICE: SEROESET-Connman __init__(self, oeMain, parent)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::__init__ ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman add_signal_receivers(self)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::add_signal_receivers ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## xdbus::start_service ## exit_function
+NOTICE: None
+NOTICE: SEROESET=oe.py read_setting(module :openelec , setting=wizard_completed, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== read_settings value: True
+NOTICE: SEROESET===xxx===== return:True
+ DEBUG: ## OpenELEC Addon ## _service_::__init__ ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## _service_::__init__ ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## _service_::run ## enter_function
+NOTICE: None
+NOTICE: SEROESET=oe.py read_setting(module :openelec , setting=wizard_completed, default=None)
+NOTICE: SEROESET=oe.py load_config()
+NOTICE: SEROESET===xxx===== read_settings value: True
+NOTICE: SEROESET===xxx===== return:True
+  INFO: ## OpenELEC Addon ## _service_::run ## WAITING:
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::add_signal_receivers ## exit_function
+NOTICE: None
+  INFO: ## OpenELEC Addon ## xdbus Monitor started. ##
+NOTICE: None
+NOTICE: SEROESET-Connman vpnNameOwnerChanged(self, proxy)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::vpnNameOwnerChanged ## enter_function
+NOTICE: None
+NOTICE: SEROESET-Connman remove_vpn_agent(self)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::remove_vpn_agent ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::remove_vpn_agent ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::vpnNameOwnerChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman conNameOwnerChanged(self, proxy)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::nameOwnerChanged ## enter_function
+NOTICE: None
+NOTICE: SEROESET-Connman initialize_agent(self)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::initialize_agent ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::initialize_agent ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::nameOwnerChanged ## exit_function
+NOTICE: None
+ARNING: CDVDMessageQueue(video)::Get - asked for new data packet, with nothing available
+  INFO: CDVDPlayerVideo - Stillframe detected, switching to forced 25.000000 fps
+  INFO: LIRC Initialize: using: /dev/lircd
+ DEBUG: Failed to connect to LIRC. Retry in 20s.
+  INFO: Process - eof reading from demuxer
+NOTICE: CDVDPlayer::OnExit()
+NOTICE: DVDPlayer: eof, waiting for queues to empty
+NOTICE: DVDPlayer: closing audio stream
+NOTICE: Closing audio stream
+NOTICE: CDVDMessageQueue(audio)::WaitUntilEmpty
+ DEBUG: CDVDPlayerAudio - CDVDMsg::GENERAL_EOF
+ DEBUG: CDVDPlayerAudio - CDVDMsg::GENERAL_SYNCHRONIZE
+NOTICE: Waiting for audio thread to exit
+ DEBUG: CDVDPlayerAudio::Process - Abort received, exiting thread
+NOTICE: thread end: CDVDPlayerAudio::OnExit()
+ DEBUG: Thread DVDPlayerAudio 546988097856 terminating
+NOTICE: Closing audio device
+NOTICE: Deleting audio codec
+ DEBUG: CActiveAE::DiscardStream - audio stream deleted
+ DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+NOTICE: DVDPlayer: closing video stream
+NOTICE: Closing video stream
+NOTICE: CDVDMessageQueue(video)::WaitUntilEmpty
+ DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+ DEBUG: CDVDPlayerVideo - CDVDMsg::GENERAL_SYNCHRONIZE
+ ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true
+NOTICE: thread end: video_thread
+NOTICE: waiting for video thread to exit
+NOTICE: deleting video codec
+ DEBUG: CAMLCodec::CloseDecoder
+ DEBUG: Thread DVDPlayerVideo 547096621376 terminating
+ DEBUG: CAMLCodec::Process Stopped
+ DEBUG: Thread CAMLCodec 546131931456 terminating
+NOTICE: CDVDPlayer::OnExit() deleting demuxer
+NOTICE: CDVDPlayer::OnExit() deleting input stream
+ DEBUG: OnPlayBackEnded : play state was 2, starting 0
+ DEBUG: CAnnouncementManager - Announcement: OnStop from xbmc
+ DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnStop
+ DEBUG: Thread DVDPlayer 547105009984 terminating
+  INFO: CActiveAESink::OpenSink - initialize sink
+ DEBUG: SendMessage: mess=1006 send=0 control=0 param1=0
+ DEBUG: SendMessage: mess=1003 send=0 control=0 param1=0
+ DEBUG: CSettingsManager: requested setting (lookandfeel.soundskin) was not found.
+ DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+ DEBUG: ------ Window Deinit (VideoFullScreen.xml) ------
+ DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+ DEBUG: ------ Window Init (Home.xml) ------
+ DEBUG: SendMessage: mess=20 send=10000 control=0 param1=0
+ DEBUG: SendMessage: mess=3 send=10000 control=299 param1=2
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 1 times.
+ DEBUG: SendMessage: mess=1010 send=0 control=0 param1=1
+NOTICE: CDVDPlayer::CloseFile()
+NOTICE: DVDPlayer: waiting for threads to exit
+NOTICE: DVDPlayer: finished waiting
+ DEBUG: LinuxRendererGL: Cleaning up GL resources
+NOTICE: CDVDPlayer::CloseFile()
+NOTICE: DVDPlayer: waiting for threads to exit
+NOTICE: DVDPlayer: finished waiting
+ DEBUG: LinuxRendererGL: Cleaning up GL resources
+ DEBUG: CSettingsManager: requested setting (lookandfeel.soundskin) was not found.
+ DEBUG: CActiveAESink::OpenSink - trying to open device ALSA:hdmi:CARD=AMLM8AUDIO,DEV=0
+ DEBUG: CAESinkALSA::GetChannelLayout - Input Channel Count: 2 Output Channel Count: 2
+ DEBUG: CAESinkALSA::GetChannelLayout - Requested Layout: FL,FR
+ DEBUG: CAESinkALSA::GetChannelLayout - Got Layout: FL,FR
+  INFO: CAESinkALSA::Initialize - Attempting to open device "default"
+  INFO: CAESinkALSA::Initialize - Opened device "default"
+  INFO: CAESinkALSA::InitializeHW - Your hardware does not support AE_FMT_FLOAT, trying other formats
+  INFO: CAESinkALSA::InitializeHW - Using data format AE_FMT_S32NE
+ DEBUG: CAESinkALSA::InitializeHW - Min: periodSize 8, periods 2, bufferSize 16
+ DEBUG: CAESinkALSA::InitializeHW - Max: periodSize 8192, periods 1024, bufferSize 65536
+ DEBUG: CAESinkALSA::InitializeHW - Request: periodSize 2048, periods 8, bufferSize 16384
+ DEBUG: CAESinkALSA::InitializeHW - Got: periodSize 2048, bufferSize 16384
+ DEBUG: CAESinkALSA::InitializeHW - Setting timeout to 372 ms
+ DEBUG: CAESinkALSA::GetChannelLayout - Input Channel Count: 2 Output Channel Count: 2
+ DEBUG: CAESinkALSA::GetChannelLayout - Requested Layout: FL,FR
+ DEBUG: CAESinkALSA::GetChannelLayout - Got Layout: FL,FR
+ DEBUG: CActiveAESink::OpenSink - ALSA Initialized:
+ DEBUG:   Output Device : AML-M8AUDIO
+ DEBUG:   Sample Rate   : 44100
+ DEBUG:   Sample Format : AE_FMT_S32NE
+ DEBUG:   Channel Count : 2
+ DEBUG:   Channel Layout: FL,FR
+ DEBUG:   Frames        : 2048
+ DEBUG:   Frame Samples : 4096
+ DEBUG:   Frame Size    : 8
+ DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+ DEBUG: Previous line repeats 1 times.
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 3 times.
+ DEBUG: DoWork - Saving file state for video item /usr/share/xbmc/media/__SEEBO_MASTER.mp4
+ DEBUG: Checking repositories for updates (triggered by KOWAN [COLOR orange]Official Addons[/COLOR])
+ DEBUG: CFileCache::Open - opening <kowan_addons/kowan/addons.xml.md5> using cache
+ DEBUG: CurlFile::Open(0x7f4c22a560) http://services.kowantv.com/kowan_addons/kowan/addons.xml.md5
+ DEBUG: PVRManager - Load - First Time Delay for [Loading channels from clients....] - End
+ DEBUG: ------ Window Init (DialogExtendedProgressBar.xml) ------
+ DEBUG: CSettingsManager: requested setting (lookandfeel.skintheme) was not found.
+ DEBUG: Previous line repeats 1 times.
+NOTICE: Thread FileCache start, auto delete: false
+  INFO: CFileCache::Process - Hit eof.
+ DEBUG: Thread FileCache 547105009984 terminating
+ DEBUG: UpdateRepos - Repo Update Job
+  INFO: ADDON: cpluff: 'Could not read plug-in directory /usr/lib/xbmc/addons: No such file or directory'
+ DEBUG: ADDON: cpluff: 'Not all directories were successfully scanned.'
+ DEBUG: SendMessage: mess=21 send=0 control=0 param1=1026
+ DEBUG: PVR - Load - loading all radio channel groups
+ DEBUG: PVRChannelGroup - Load - 4 channels loaded from the database for group 'All radio channels'
+  INFO: PVRChannelGroup - RemoveDeletedChannels - deleted radio channel '[COLOR cyan] NBC Golf [/COLOR]' from group 'All radio channels'
+ DEBUG: PVR - Delete - deleting channel '[COLOR cyan] NBC Golf [/COLOR]' from the database
+  INFO: PVRChannelGroup - RemoveDeletedChannels - deleted radio channel '[COLOR cyan] NHL Versus [/COLOR]' from group 'All radio channels'
+ DEBUG: PVR - Delete - deleting channel '[COLOR cyan] NHL Versus [/COLOR]' from the database
+  INFO: PVRChannelGroup - RemoveDeletedChannels - deleted radio channel '[COLOR cyan] Pac 12 [/COLOR]' from group 'All radio channels'
+ DEBUG: PVR - Delete - deleting channel '[COLOR cyan] Pac 12 [/COLOR]' from the database
+  INFO: PVRChannelGroup - RemoveDeletedChannels - deleted radio channel '[COLOR red] 1HD [/COLOR]' from group 'All radio channels'
+ DEBUG: PVR - Delete - deleting channel '[COLOR red] 1HD [/COLOR]' from the database
+ DEBUG: CPVRChannelGroup - Persist - persisting channel group 'All radio channels' with 0 channels
+ DEBUG: PVR - Get - group 'All radio channels' loaded from the database
+ DEBUG: PVR - LoadUserDefinedChannelGroups - 0 user defined radio channel groups fetched from the database
+ DEBUG: PVR - LoadUserDefinedChannelGroups - 0 new user defined radio channel groups fetched from clients
+ DEBUG: PVR - PersistAll - persisting all changes in channel groups
+ DEBUG: PVR - Load - 1 radio channel groups loaded
+ DEBUG: PVR - Load - loading all TV channel groups
+ DEBUG: PVRChannelGroup - Load - 13 channels loaded from the database for group 'All TV channels'
+  INFO: PVRChannelGroup - RemoveDeletedChannels - deleted TV channel '' from group 'All TV channels'
+  INFO: Previous line repeats 3 times.
+  INFO: PVRChannelGroupInternal - AddAndUpdateChannels - added TV channel '[COLOR red] 1HD [/COLOR]'
+  INFO: PVRChannelGroupInternal - AddAndUpdateChannels - added TV channel '[COLOR cyan] Pac 12 [/COLOR]'
+  INFO: PVRChannelGroupInternal - AddAndUpdateChannels - added TV channel '[COLOR cyan] NHL Versus [/COLOR]'
+  INFO: PVRChannelGroupInternal - AddAndUpdateChannels - added TV channel '[COLOR cyan] NBC Golf [/COLOR]'
+ DEBUG: CPVRChannelGroup - Persist - persisting channel group 'All TV channels' with 13 channels
+ DEBUG: Previous line repeats 1 times.
+ DEBUG: PVR - Get - group 'All TV channels' loaded from the database
+ DEBUG: PVR - Get - group 'NEWS' loaded from the database
+ DEBUG: PVR - Get - group 'ENTERTAINMENT' loaded from the database
+ DEBUG: PVR - Get - group 'MUSIC' loaded from the database
+ DEBUG: PVR - Get - group 'SPORTS' loaded from the database
+ DEBUG: PVR - LoadUserDefinedChannelGroups - 4 user defined TV channel groups fetched from the database
+ DEBUG: PVR - LoadUserDefinedChannelGroups - 0 new user defined TV channel groups fetched from clients
+ DEBUG: PVRChannelGroup - Load - 4 channels loaded from the database for group 'NEWS'
+ DEBUG: PVR - GetChannelGroupMembers - get group members for group 'NEWS' from add-on 'IPTV Simple PVR Add-on:connected'
+ DEBUG: PVRChannelGroup - Load - 2 channels loaded from the database for group 'ENTERTAINMENT'
+ DEBUG: PVR - GetChannelGroupMembers - get group members for group 'ENTERTAINMENT' from add-on 'IPTV Simple PVR Add-on:connected'
+ DEBUG: PVRChannelGroup - Load - 4 channels loaded from the database for group 'MUSIC'
+ DEBUG: PVR - GetChannelGroupMembers - get group members for group 'MUSIC' from add-on 'IPTV Simple PVR Add-on:connected'
+ DEBUG: PVRChannelGroup - Load - 3 channels loaded from the database for group 'SPORTS'
+ DEBUG: PVR - GetChannelGroupMembers - get group members for group 'SPORTS' from add-on 'IPTV Simple PVR Add-on:connected'
+ DEBUG: PVR - PersistAll - persisting all changes in channel groups
+ DEBUG: CPVRChannelGroup - Persist - persisting channel group 'All TV channels' with 13 channels
+ DEBUG: CPVRChannelGroup - Persist - persisting channel group 'MUSIC' with 4 channels
+ DEBUG: CPVRChannelGroup - Persist - persisting channel group 'SPORTS' with 3 channels
+ DEBUG: PVR - Load - 5 TV channel groups loaded
+ DEBUG: CPVRTimers - Update - updating timers
+ DEBUG: CPVRRecordings - Update - updating recordings
+NOTICE: Thread PVRGUIInfo start, auto delete: false
+ DEBUG: PVRManager - Process - entering main loop
+ DEBUG: EPG - Load - no database entries found for table '[COLOR green] Deutsche Welle [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR red] Capital TV [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR green] Deutsche Welle [/COLOR]'.
+ DEBUG: ------ Window Deinit (DialogExtendedProgressBar.xml) ------
+ DEBUG: EPG - Load - no database entries found for table '[COLOR red] Capital TV [/COLOR]'.
+ DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+ DEBUG: EPG - Load - no database entries found for table '[COLOR red] 1HD [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] Pac 12 [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NHL Versus [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NBC Golf [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR red] 1HD [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] Pac 12 [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NHL Versus [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NBC Golf [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR red] 1HD [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] Pac 12 [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NHL Versus [/COLOR]'.
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NBC Golf [/COLOR]'.
+NOTICE: Thread EPGUpdater start, auto delete: false
+NOTICE: Start - EPG thread started
+ DEBUG: CPVRChannelGroup - Persist - persisting channel group 'All TV channels' with 13 channels
+ DEBUG: CPVRTimers - Update - updating timers
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR green] Al Jazeera [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR green] Arirang TV [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR green] Bloomberg TV UK [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR green] Deutsche Welle [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR green]  France 24 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR green] RT Documentary [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] Heartv [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] Capital TV [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] Radio MonteCarlo [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] 1HD [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] Pac 12 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NHL Versus [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NBC Golf [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] 1HD [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] Pac 12 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NHL Versus [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NBC Golf [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] 1HD [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] Pac 12 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NHL Versus [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NBC Golf [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] 1HD [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] Pac 12 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NHL Versus [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NBC Golf [/COLOR]'
+ DEBUG: EPG - UpdateFromScraper - updating EPG for channel '[COLOR green] Deutsche Welle [/COLOR]' from client '1'
+ DEBUG: CFileCache::Open - opening <EPGServer/getEPGData> using cache
+ DEBUG: CurlFile::Open(0x7f20001980) http://services.kowantv.com/EPGServer/getEPGData
+NOTICE: Thread FileCache start, auto delete: false
+ DEBUG: ------ Window Deinit (DialogKaiToast.xml) ------
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(66, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(66, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+  INFO: CFileCache::Process - Hit eof.
+ DEBUG: Thread FileCache 547096621376 terminating
+NOTICE: AddOnLog: PVR IPTV Simple Client: EPG Loaded.
+ DEBUG: EPG - UpdateFromScraper - updating EPG for channel '[COLOR red] Capital TV [/COLOR]' from client '1'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] 1HD [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] Pac 12 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NHL Versus [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NBC Golf [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] 1HD [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] Pac 12 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NHL Versus [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NBC Golf [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR red] 1HD [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] Pac 12 [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NHL Versus [/COLOR]'
+ARNING: EPG - UpdateFromScraper - channel not found, can't update
+ ERROR: EPG - Update - failed to update table '[COLOR cyan] NBC Golf [/COLOR]'
+ DEBUG: EPG - Load - no database entries found for table '[COLOR red] 1HD [/COLOR]'.
+ DEBUG: EPG - UpdateFromScraper - updating EPG for channel '[COLOR red] 1HD [/COLOR]' from client '1'
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] Pac 12 [/COLOR]'.
+ DEBUG: EPG - UpdateFromScraper - updating EPG for channel '[COLOR cyan] Pac 12 [/COLOR]' from client '1'
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NHL Versus [/COLOR]'.
+ DEBUG: EPG - UpdateFromScraper - updating EPG for channel '[COLOR cyan] NHL Versus [/COLOR]' from client '1'
+ DEBUG: EPG - Load - no database entries found for table '[COLOR cyan] NBC Golf [/COLOR]'.
+ DEBUG: EPG - UpdateFromScraper - updating EPG for channel '[COLOR cyan] NBC Golf [/COLOR]' from client '1'
+ DEBUG: deleting EPG table [COLOR green] Al Jazeera [/COLOR] (75)
+ DEBUG: deleting EPG table [COLOR green] Arirang TV [/COLOR] (76)
+ DEBUG: deleting EPG table [COLOR green] Bloomberg TV UK [/COLOR] (77)
+ DEBUG: deleting EPG table [COLOR green] Deutsche Welle [/COLOR] (78)
+ DEBUG: deleting EPG table [COLOR green]  France 24 [/COLOR] (79)
+ DEBUG: deleting EPG table [COLOR green] RT Documentary [/COLOR] (80)
+ DEBUG: deleting EPG table [COLOR red] Heartv [/COLOR] (81)
+ DEBUG: deleting EPG table [COLOR red] Capital TV [/COLOR] (82)
+ DEBUG: deleting EPG table [COLOR red] Radio MonteCarlo [/COLOR] (83)
+ DEBUG: deleting EPG table [COLOR red] 1HD [/COLOR] (120)
+ DEBUG: deleting EPG table [COLOR cyan] Pac 12 [/COLOR] (121)
+ DEBUG: deleting EPG table [COLOR cyan] NHL Versus [/COLOR] (122)
+ DEBUG: deleting EPG table [COLOR cyan] NBC Golf [/COLOR] (123)
+ DEBUG: deleting EPG table [COLOR red] 1HD [/COLOR] (124)
+ DEBUG: deleting EPG table [COLOR cyan] Pac 12 [/COLOR] (125)
+ DEBUG: deleting EPG table [COLOR cyan] NHL Versus [/COLOR] (126)
+ DEBUG: deleting EPG table [COLOR cyan] NBC Golf [/COLOR] (127)
+ DEBUG: deleting EPG table [COLOR red] 1HD [/COLOR] (128)
+ DEBUG: deleting EPG table [COLOR cyan] Pac 12 [/COLOR] (129)
+ DEBUG: deleting EPG table [COLOR cyan] NHL Versus [/COLOR] (130)
+ DEBUG: deleting EPG table [COLOR cyan] NBC Golf [/COLOR] (131)
+ DEBUG: deleting EPG table [COLOR red] 1HD [/COLOR] (132)
+ DEBUG: deleting EPG table [COLOR cyan] Pac 12 [/COLOR] (133)
+ DEBUG: deleting EPG table [COLOR cyan] NHL Versus [/COLOR] (134)
+ DEBUG: deleting EPG table [COLOR cyan] NBC Golf [/COLOR] (135)
+ DEBUG: deleting EPG table [COLOR red] 1HD [/COLOR] (169)
+ DEBUG: deleting EPG table [COLOR cyan] Pac 12 [/COLOR] (170)
+ DEBUG: deleting EPG table [COLOR cyan] NHL Versus [/COLOR] (171)
+ DEBUG: deleting EPG table [COLOR cyan] NBC Golf [/COLOR] (172)
+ DEBUG: deleting EPG table [COLOR red] 1HD [/COLOR] (173)
+ DEBUG: deleting EPG table [COLOR cyan] Pac 12 [/COLOR] (174)
+ DEBUG: deleting EPG table [COLOR cyan] NHL Versus [/COLOR] (175)
+ DEBUG: deleting EPG table [COLOR cyan] NBC Golf [/COLOR] (176)
+ DEBUG: deleting EPG table [COLOR red] 1HD [/COLOR] (177)
+ DEBUG: deleting EPG table [COLOR cyan] Pac 12 [/COLOR] (178)
+ DEBUG: deleting EPG table [COLOR cyan] NHL Versus [/COLOR] (179)
+ DEBUG: deleting EPG table [COLOR cyan] NBC Golf [/COLOR] (180)
+ DEBUG: CPVRTimers - Update - updating timers
+  INFO: LIRC Initialize: using: /dev/lircd
+ DEBUG: Failed to connect to LIRC. Retry in 40s.
+ DEBUG: SECTION:UnloadDelayed(DLL: libamcodec.so)
+ DEBUG: Unloading: libamcodec.so
+ DEBUG: Thread JobWorker 546123542848 terminating (autodelete)
+ DEBUG: SECTION:UnloadDelayed(DLL: special://xbmcbin/system/ImageLib-aarch64.so)
+ DEBUG: Unloading: ImageLib-aarch64.so
+ DEBUG: Thread JobWorker 547130175808 terminating (autodelete)
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(58, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(58, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman servicesChanged(self, services, removed)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::services ## dbus.Array([dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(39, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk'), dbus.String(u'wps')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'BelongTK3U43JG', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(34, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk'), dbus.String(u'wps')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'Optus-4G-E5186-FCCE', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'Pretty Fly For a WIFI', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None)], signature=dbus.Signature('(oa{sv})'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::removed ## dbus.Array([], signature=dbus.Signature('o'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## exit_function
+NOTICE: None
+  INFO: CheckIdle - Closing session to http://services.kowantv.com (easy=0x7f4400da70, multi=0x7f4c20ab90)
+  INFO: LIRC Initialize: using: /dev/lircd
+ DEBUG: Failed to connect to LIRC. Giving up.
+ DEBUG: CSettingsManager: requested setting (pvrparental.enabled) was not found.
+ DEBUG: Previous line repeats 123 times.
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(36, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(36, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(32, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(32, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman servicesChanged(self, services, removed)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::services ## dbus.Array([dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54656c73747261393233334131_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk'), dbus.String(u'wps')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'Telstra9233A1', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None)], signature=dbus.Signature('(oa{sv})'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::removed ## dbus.Array([], signature=dbus.Signature('o'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(59, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(59, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman servicesChanged(self, services, removed)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::services ## dbus.Array([dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_41647669636545786368616e6765_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'AdviceExchange', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_444f444f46453038_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'DODOFE08', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_466f6e2057694669_managed_none'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'none')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'Fon WiFi', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54502d4c494e4b5f32423343_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk'), dbus.String(u'wps')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'TP-LINK_2B3C', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54656c73747261393233334131_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None)], signature=dbus.Signature('(oa{sv})'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::removed ## dbus.Array([], signature=dbus.Signature('o'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(39, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(39, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman servicesChanged(self, services, removed)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::services ## dbus.Array([dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_41647669636545786368616e6765_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_444f444f46453038_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_466f6e2057694669_managed_none'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54502d4c494e4b5f32423343_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54656c73747261393233334131_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None)], signature=dbus.Signature('(oa{sv})'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::removed ## dbus.Array([], signature=dbus.Signature('o'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(52, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(52, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(32, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(32, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(30, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(30, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman servicesChanged(self, services, removed)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::services ## dbus.Array([dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_41647669636545786368616e6765_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_444f444f46453038_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_466f6e2057694669_managed_none'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f505455535f443239464245_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk'), dbus.String(u'wps')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'OPTUS_D29FBE', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54502d4c494e4b5f32423343_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54656c73747261393233334131_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None)], signature=dbus.Signature('(oa{sv})'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::removed ## dbus.Array([], signature=dbus.Signature('o'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## exit_function
+NOTICE: None
+ DEBUG: CAnnouncementManager - Announcement: OnScreensaverActivated from xbmc
+ DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverActivated
+ DEBUG: ------ Window Init () ------
+ DEBUG: ## OpenELEC Addon ## c_xbmcm::onScreensaverActivated ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## bluetooth::standby_devices ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## bluetooth::standby_devices ## exit_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## c_xbmcm::onScreensaverActivated ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(53, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(53, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(33, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(33, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(28, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(28, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman servicesChanged(self, services, removed)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::services ## dbus.Array([dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_41647669636545786368616e6765_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4368726f6d656361737436333436_managed_none'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'none')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'Chromecast6346', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_444f444f46453038_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_466f6e2057694669_managed_none'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f505455535f443239464245_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54502d4c494e4b5f32423343_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54656c73747261393233334131_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None)], signature=dbus.Signature('(oa{sv})'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::removed ## dbus.Array([], signature=dbus.Signature('o'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(65, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(65, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(36, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(36, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman managerPropertyChanged(self, name, value, path, interface)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::value ## dbus.Byte(33, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged::interface ## 'net.connman.Service'
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::managerPropertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman propertyChanged(self, name, value, path)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::name ## dbus.String(u'Strength')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::value ## dbus.Byte(33, variant_level=1)
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged::path ## dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk')
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::propertyChanged ## exit_function
+NOTICE: None
+NOTICE: SEROESET-Connman servicesChanged(self, services, removed)
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## enter_function
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::services ## dbus.Array([dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_537765657420486f6d65_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_42656c6f6e67544b335534334a47_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f707475732d34472d45353138362d46434345_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_50726574747920466c7920466f7220612057494649_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_41647669636545786368616e6765_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4368726f6d656361737436333436_managed_none'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_444f444f46453038_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_466f6e2057694669_managed_none'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4e4554474541523435_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk'), dbus.String(u'wps')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'NETGEAR45', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_4f505455535f443239464245_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54502d4c494e4b5f32423343_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_54656c73747261393233334131_managed_psk'), dbus.Dictionary({}, signature=dbus.Signature('sv'))), signature=None), dbus.Struct((dbus.ObjectPath('/net/connman/service/wifi_849ca6ad3560_646c696e6b2d45423041_managed_psk'), dbus.Dictionary({dbus.String(u'Strength'): dbus.Byte(28, variant_level=1), dbus.String(u'Nameservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'State'): dbus.String(u'idle', variant_level=1), dbus.String(u'Provider'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Type'): dbus.String(u'wifi', variant_level=1), dbus.String(u'Security'): dbus.Array([dbus.String(u'psk')], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'AutoConnect'): dbus.Boolean(False, variant_level=1), dbus.String(u'Immutable'): dbus.Boolean(False, variant_level=1), dbus.String(u'Proxy'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv4.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'dhcp', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6.Configuration'): dbus.Dictionary({dbus.String(u'Method'): dbus.String(u'off', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Name'): dbus.String(u'dlink-EB0A', variant_level=1), dbus.String(u'Favorite'): dbus.Boolean(False, variant_level=1), dbus.String(u'Timeservers'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Domains'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Ethernet'): dbus.Dictionary({dbus.String(u'Interface'): dbus.String(u'wlan0', variant_level=1), dbus.String(u'MTU'): dbus.UInt16(1500, variant_level=1), dbus.String(u'Method'): dbus.String(u'auto', variant_level=1), dbus.String(u'Address'): dbus.String(u'84:9C:A6:AD:35:60', variant_level=1)}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Nameservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Proxy.Configuration'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'Domains.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'Timeservers.Configuration'): dbus.Array([], signature=dbus.Signature('s'), variant_level=1), dbus.String(u'IPv4'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1), dbus.String(u'IPv6'): dbus.Dictionary({}, signature=dbus.Signature('sv'), variant_level=1)}, signature=dbus.Signature('sv'))), signature=None)], signature=dbus.Signature('(oa{sv})'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged::removed ## dbus.Array([], signature=dbus.Signature('o'))
+NOTICE: None
+ DEBUG: ## OpenELEC Addon ## connman::monitor::servicesChanged ## exit_function
+NOTICE: None
