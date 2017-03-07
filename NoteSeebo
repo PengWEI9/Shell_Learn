@@ -15,3 +15,4 @@ ENABLING GDB:
 2: gdb start /user/lib/xbmc/xbmc.bin 
 	by gdb xbmc.bin
 	run
+sudo PROJECT=KOWAN2 ARCH=aarch64 ./scripts/clean xbmc&&sudo rm -f /home/peng/work/seebo_eco/LE_7.0_1.0/sources/xbmc/xbmc-KOWAN2.tar.xz && engrampa /home/peng/work/seebo_eco/LE_7.0_1.0/sources/xbmc/xbmc-KOWAN2 -a /home/peng/work/seebo_eco/LE_7.0_1.0/sources/xbmc/xbmc-KOWAN2.tar.xz&&sudo PROJECT=KOWAN2 ARCH=aarch64 make amlpkg && notify-send "SUCCESSFULLY COMPILED" || notify-send "FAILED COMPILING"
