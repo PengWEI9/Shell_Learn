@@ -1,0 +1,17 @@
+NEO Compile:
+PROJECT=NEO ARCH=arm DEVICE=M8 make release
+
+Kowan2 Compile:
+PROJECT=KOWAN2 ARCH=aarch64 make amlpkg
+PROJECT=KOWAN2 ARCH=aarch64 ./scripts/clean xbmc
+
+Hex Compile:
+PROJECT=HEX  ARCH=x86_64 make release
+
+ENABLING GDB:
+1: Enabling gdb debug flag (--enable-debug) at 
+	LE_7.0_1.0/packages/mediacenter/xbmc/package.mk     
+1: start everything normal, when in sys. cmd: systemctl stop xbmc.service
+2: gdb start /user/lib/xbmc/xbmc.bin 
+	by gdb xbmc.bin
+	run
