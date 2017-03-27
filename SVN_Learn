@@ -1,3 +1,2 @@
 #revert to head and discard current change(Warning changes will be discarded)
-svn revert -R .
-svn up
+svn up -r 1254(revision number)
