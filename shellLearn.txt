@@ -1,6 +1,7 @@
 # REMOTE MAPPING
 Mapping remote directory to local
 sshfs -o nonempty root@192.168.15.59:/remoteDir /localDir
+sshfs -o nonempty root@192.168.15.37:/storage/.kodi/addons/skin.arctic.zephyr.plus/1080i ./
 sshfs -o nonempty root@192.168.15.59:/storage/.xbmc/addons/skin.seebo.dev /home/pengwei/Desktop/remote/skin.seebo.dev
 
 unMapping remote from local dir
