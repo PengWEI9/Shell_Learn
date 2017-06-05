@@ -1,2 +1,3 @@
 Virtual Box:
 1: import a image:
+VBoxManage registervm /pathToVbox/VmVirtualBox_Ubuntu14.04.4.x64_MW.Stalker.Demo.vbox
