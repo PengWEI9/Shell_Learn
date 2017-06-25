@@ -8,7 +8,7 @@ PROJECT=KOWAN2 ARCH=aarch64 ./scripts/clean xbmc
 Hex Compile:
 PROJECT=HEX  ARCH=x86_64 make release
 
-ENABLING GDB:
+ENABLING GDB(LE_7.0_1.0):
 1: Enabling gdb debug flag (--enable-debug) at 
 	LE_7.0_1.0/packages/mediacenter/xbmc/package.mk     
 1: start everything normal, when in sys. cmd: systemctl stop xbmc.service
