@@ -1,4 +1,4 @@
-NEO Compile:
+stNEO Compile:
 PROJECT=NEO ARCH=arm DEVICE=M8 make release
 
 Kowan2 Compile:
@@ -10,11 +10,24 @@ sudo PROJECT=KOWAN2 ARCH=aarch64 ./scripts/clean xbmc&&sudo rm -f /home/peng/wor
 Hex Compile:
 PROJECT=HEX  ARCH=x86_64 make release
 
-ENABLING GDB(LE_7.0_1.0):
+ENABLING GDB:
 1: Enabling gdb debug flag (--enable-debug) at 
 	LE_7.0_1.0/packages/mediacenter/xbmc/package.mk     
 1: start everything normal, when in sys. cmd: systemctl stop xbmc.service
 2: gdb start /user/lib/xbmc/xbmc.bin 
 	by gdb xbmc.bin
 	run
-	
+
+m3u Catch:
+.xbmc/userdata/addon_data/pvr.iptvsimple/iptvsimple/ .m3u.cache
+
+xbmc/kodi Console command:
+xbmc-send --host=192.168.15.8 --port=9777 --action="ReloadSkin()"
+
+Enable ssh: file location: LE_7.0_1.0/projects/KOWAN2/linux
+CONFIG_CMDLINE="console=tty0 systemd.show_status=auto coherent_pool=4M, loglevel=1 quiet ssh"
+Disable ssh: 
+CONFIG_CMDLINE="console=tty0 systemd.show_status=auto coherent_pool=4M, loglevel=1 quiet"
+
+ADDON DEV SCRIPT:
+sudo engrampa /home/peng/work/seebo_eco/LibreELEC.tv/sources/pvr.stalker/pvr.stalker-c396e47c4d19683b635e5fe01098a1362909b490 -a /home/peng/work/seebo_eco/LibreELEC.tv/sources/pvr.stalker/pvr.stalker-c396e47.tar.gz && PROJECT=S905 ARCH=arm ./scripts/clean pvr.stalker && PROJECT=S905 ARCH=arm ./scripts/create_addon pvr.stalker
