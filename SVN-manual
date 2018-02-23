@@ -4,6 +4,7 @@ Hi All,
 1. Checkout the latest trunk
   $ svn co svn+ssh://clk@svn.seebo.com.au/home/seebo/development/seebo_eco/seebo_duo_e/trunk
   $ svn co svn+ssh://davem@svn.seebo.com.au/home/seebo/development/seebo_eco/HEX/backup.tar
+  passcode: dmsb22rkm
     
   This will create a latest copy of SVN trunk in your local area. If you already have checked out the trunk then fire following command to get updates from SVN (This is important so everybody get synchronized latest SVN)
   $ svn up
